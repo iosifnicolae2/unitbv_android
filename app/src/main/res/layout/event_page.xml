@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activities.EventPage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:minHeight="80dp"
+            android:background="@color/place_details_bg"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_goto"
+        android:scaleType="fitCenter"
+        app:fabSize="normal"
+        app:backgroundTint="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        app:srcCompat="@android:drawable/ic_dialog_map"
+        android:onClick="go_event" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp">
+
+        <TextView
+            android:text="@string/type_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/event_title_field_size" />
+        <TextView
+            android:id="@+id/type_event"
+            android:text="Seminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/event_field_size" />
+
+        <TextView
+            android:text="@string/event_teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/event_title_field_size" />
+        <TextView
+            android:id="@+id/event_teacher"
+            android:text="Moldoveanu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/event_field_size" />
+
+
+        <TextView
+            android:text="@string/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/event_title_field_size"/>
+        <TextView
+            android:id="@+id/location_event"
+            android:text="Corpul V et.4 sala 8"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/event_field_size"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:text="@string/schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/event_title_field_size"/>
+        <TextView
+            android:id="@+id/event_schedule"
+            android:text="luni 8:00-12:00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/event_field_size"  />
+
+
+        <TextView
+            android:text="@string/event_participants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/event_title_field_size"/>
+        <TextView
+            android:id="@+id/event_participants"
+            android:text="Gr 3,4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/event_field_size"  />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

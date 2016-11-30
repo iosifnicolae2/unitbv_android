@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SettingsActivity">
+
+
+
+    <LinearLayout
+        android:onClick="configure_user_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/configurare_grupa"
+            android:textSize="17sp"
+            android:textColor="#292929"/>
+        <TextView
+            android:id="@+id/user_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/configurare_grupa_subtitle"
+            android:textSize="14sp"
+            android:textColor="#5e5e5e"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="#c6c6c6"/>
+
+
+    <Switch
+        android:padding="20dp"
+        android:text="@string/receive_news_notifications"
+        android:textColor="#292929"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch_news_notifications" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="#c6c6c6"/>
+</LinearLayout>
