@@ -3,12 +3,21 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$APPLICATION_HOME_DIR$/gradle/gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/k9mail" />
+            <option value="$PROJECT_DIR$/k9mail-library" />
+            <option value="$PROJECT_DIR$/plugins" />
+            <option value="$PROJECT_DIR$/plugins/Android-PullToRefresh" />
+            <option value="$PROJECT_DIR$/plugins/Android-PullToRefresh/library" />
+            <option value="$PROJECT_DIR$/plugins/HoloColorPicker" />
+            <option value="$PROJECT_DIR$/plugins/openpgp-api-lib" />
+            <option value="$PROJECT_DIR$/plugins/openpgp-api-lib/openpgp-api" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

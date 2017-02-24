@@ -35,7 +35,7 @@ public class UnitbvApp extends Application {
     private ArrayList<MenuCallback> menu_callbacks = new ArrayList<>();
     private ArrayList<String> filter_category = null;
 
-    public static final String API_DOMAIN = "http://192.168.0.227:9080";
+    public static final String API_DOMAIN = "https://unitbv.mailo.ml";
 
     @Override
     public void onCreate() {
@@ -76,7 +76,7 @@ public class UnitbvApp extends Application {
 
     private void get_schedule() {
         AsyncHttpClient client = new AsyncHttpClient();
-        client.get("http://game-booster.tk/orar.csv", new AsyncHttpResponseHandler() {
+        client.get("https://unitbv.mailo.ml/static/orar_csv/orar.csv", new AsyncHttpResponseHandler() {
 
             @Override
             public void onStart() {

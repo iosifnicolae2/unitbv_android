@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_none_dots_1.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_none_dots_1.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_opportunistic.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_opportunistic.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/notification_icon_new_mail.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/notification_icon_new_mail.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_dots_3.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_dots_3.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_closed.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_closed.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/bullet_point_neutral.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/bullet_point_neutral.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/bullet_point_positive.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/bullet_point_positive.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_error.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_error.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_error_dots_1.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_error_dots_1.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_none_dots_2.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_none_dots_2.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_none_dots_1.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_none_dots_1.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_disabled.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_disabled.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_signature_verified_cutout.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_signature_verified_cutout.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_dots_3.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_dots_3.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_dots.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_dots.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/notification_action_mark_as_read.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/notification_action_mark_as_read.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_disabled_dots_1.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_disabled_dots_1.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/compatibility.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/compatibility.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_dots_1.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_dots_1.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_signature_unverified_cutout.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_signature_unverified_cutout.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_dots_2.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_dots_2.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_none_dots_3.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_none_dots_3.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/bullet_point_negative.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/bullet_point_negative.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/notification_action_reply.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/notification_action_reply.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/notification_icon_warning.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/notification_icon_warning.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/notification_action_delete.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/notification_action_delete.xml"
+    },
+    {
+        "merged": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/res/merged/debug/drawable-anydpi-v21/status_lock_dots_2.xml",
+        "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/generated/res/pngs/debug/drawable-anydpi-v21/status_lock_dots_2.xml"
+    }
+]
