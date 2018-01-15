@@ -324,35 +324,35 @@
     <string name="accountlist_preferences">Kontenliste</string>
     <string name="accounts_context_menu_title">Kontooptionen</string>
     <string name="accounts_title">Konten</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail ist ein leistungsstarker, freier E-Mail-Client für Android.
-&lt;/p>&lt;p>
+</p><p>
 Seine verbesserten Funktionen beinhalten:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push-Mail unter Verwendung von IMAP IDLE&lt;/li>
-  &lt;li>Bessere Leistung&lt;/li>
-  &lt;li>Nachrichtenneuordnung&lt;/li>
-  &lt;li>E-Mail-Signaturen&lt;/li>
-  &lt;li>Bcc-to-self&lt;/li>
-  &lt;li>Ordnerabonnements&lt;/li>
-  &lt;li>Synchronisation aller Ordner&lt;/li>
-  &lt;li>Rücksendeadresskonfiguration&lt;/li>
-  &lt;li>Tastaturkürzel&lt;/li>
-  &lt;li>Bessere IMAP-Unterstützung&lt;/li>
-  &lt;li>Speichern von Anhängen auf SD&lt;/li>
-  &lt;li>Papierkorb leeren&lt;/li>
-  &lt;li>Nachrichtensortierung&lt;/li>
-  &lt;li>…und weitere&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push-Mail unter Verwendung von IMAP IDLE</li>
+  <li>Bessere Leistung</li>
+  <li>Nachrichtenneuordnung</li>
+  <li>E-Mail-Signaturen</li>
+  <li>Bcc-to-self</li>
+  <li>Ordnerabonnements</li>
+  <li>Synchronisation aller Ordner</li>
+  <li>Rücksendeadresskonfiguration</li>
+  <li>Tastaturkürzel</li>
+  <li>Bessere IMAP-Unterstützung</li>
+  <li>Speichern von Anhängen auf SD</li>
+  <li>Papierkorb leeren</li>
+  <li>Nachrichtensortierung</li>
+  <li>…und weitere</li>
+</ul>
+<p>
 Bitte beachten Sie, dass K-9 die meisten kostenlosen Hotmail-Konten nicht unterstützt und, wie viele andere E-Mail-Clients, einige Macken bei der Kommunikation mit Microsoft Exchange hat.
-&lt;/p>&lt;p>
+</p><p>
 Bitte senden Sie Fehlerberichte, Ideen für neue Funktionen und stellen Sie Fragen an
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Nachrichten auf Server suchen</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> ausgewählt</string>
     <string name="activate_account_action">Aktivieren</string>
@@ -965,7 +965,7 @@ Teile \u00a9 2006-<ns1:g>%s</ns1:g> Android Open Source Project.</string>
     <string name="tap_hint">Für ungelesene oder favorisierte Nachrichten den Kreis oder Stern berühren</string>
     <string name="trash_folder_label">Ordner für gelöschte Nachrichten</string>
     <string name="unflag_action">Wichtig-Markierung entfernen</string>
-    <string name="unknown_recipient">&lt;Unbekannter Empfänger></string>
+    <string name="unknown_recipient"><![CDATA[<Unbekannter Empfänger>]]></string>
     <string name="unread_modifier"> - Ungelesen</string>
     <string name="unread_widget_label">K-9 Ungelesen</string>
     <string name="unread_widget_select_account">Anzahl ungelesener Nachrichten anzeigen für…</string>

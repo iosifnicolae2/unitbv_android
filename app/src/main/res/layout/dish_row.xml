@@ -17,7 +17,7 @@
         android:layout_height="wrap_content">
         <ImageView
             android:id="@+id/dish_image"
-            android:layout_width="100dp"
+            android:layout_width="140dp"
             android:layout_height="match_parent"
             android:background="@android:color/white"/>
         <LinearLayout

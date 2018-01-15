@@ -1,5 +1,5 @@
-int attr pointer_size 0x7f010001
-int attr wheel_size 0x7f010000
-int[] styleable ColorPicker { 0x7f010000, 0x7f010001 }
-int styleable ColorPicker_pointer_size 1
-int styleable ColorPicker_wheel_size 0
+int attr pointer_size 0x7f040001
+int attr wheel_size 0x7f040002
+int[] styleable ColorPicker { 0x7f040001, 0x7f040002 }
+int styleable ColorPicker_pointer_size 0
+int styleable ColorPicker_wheel_size 1

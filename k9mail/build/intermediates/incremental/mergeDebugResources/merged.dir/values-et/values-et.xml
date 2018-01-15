@@ -793,7 +793,7 @@
     <string name="status_syncing_off">Sünkroniseerimine mitteaktiivne</string>
     <string name="trash_folder_label">Prügikasti kaust</string>
     <string name="unflag_action">Eemalda tärn</string>
-    <string name="unknown_recipient">&lt;Tundmatu adressaat></string>
+    <string name="unknown_recipient"><![CDATA[<Tundmatu adressaat>]]></string>
     <string name="unread_modifier">- Lugemata</string>
     <string name="unread_widget_label">K-9 Lugemata</string>
     <string name="upgrade_database_format">Uuendab konto  \"<ns1:g id="account">%s</ns1:g>\" andmebaase</string>

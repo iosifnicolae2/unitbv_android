@@ -881,7 +881,7 @@
     <string name="status_syncing_off">Senk. kapalı</string>
     <string name="trash_folder_label">Çöp Klasörü</string>
     <string name="unflag_action">Yıldızı Kaldır</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - Okunmadı</string>
     <string name="unread_widget_label">K-9 Okunmamış</string>
     <string name="unread_widget_select_account">Şunun için okunmadı sayısını göster…</string>

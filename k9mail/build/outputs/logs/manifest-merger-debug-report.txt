@@ -1,724 +1,772 @@
 -- Merging decision tree log ---
-manifest
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:2:1-439:12
-	package
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:4:5-26
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-	android:versionName
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-	xmlns:android
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:3:5-63
-	android:versionCode
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-uses-feature#android.hardware.touchscreen
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:6:5-8:35
-	android:required
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:8:9-33
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:7:9-52
-supports-screens
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:10:5-14:38
-	android:largeScreens
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:12:9-36
-	android:smallScreens
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:14:9-36
-	android:normalScreens
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:13:9-37
-	android:anyDensity
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:11:9-34
-uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:16:5-80
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:16:22-78
-uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:17:5-71
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:17:22-69
-uses-permission#android.permission.READ_SYNC_SETTINGS
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:18:5-76
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:18:22-74
-uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:21:5-72
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:21:22-70
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:23:5-78
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:23:22-76
-uses-permission#android.permission.INTERNET
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:24:5-66
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:24:22-64
-uses-permission#android.permission.VIBRATE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:25:5-65
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:25:22-63
-uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:26:22-65
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:27:5-80
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:27:22-78
-permission#${applicationId}.permission.READ_ATTACHMENT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:29:5-34:46
+permission#com.fsck.k9.debug.permission.READ_ATTACHMENT
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:29:5-34:46
 	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:32:9-54
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:32:9-54
 	android:protectionLevel
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:34:9-44
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:34:9-44
 	android:permissionGroup
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:33:9-68
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:33:9-68
 	android:description
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:31:9-59
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:31:9-59
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:30:9-67
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-uses-permission#${applicationId}.permission.READ_ATTACHMENT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:35:5-82
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:30:9-67
+uses-permission#com.fsck.k9.debug.permission.READ_ATTACHMENT
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:35:5-82
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:35:22-80
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-permission#${applicationId}.permission.REMOTE_CONTROL
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:37:5-42:46
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:35:22-80
+permission#com.fsck.k9.debug.permission.REMOTE_CONTROL
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:37:5-42:46
 	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:40:9-53
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:40:9-53
 	android:protectionLevel
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:42:9-44
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:42:9-44
 	android:permissionGroup
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:41:9-68
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:41:9-68
 	android:description
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:39:9-58
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:39:9-58
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:38:9-66
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-uses-permission#${applicationId}.permission.REMOTE_CONTROL
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:43:5-81
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:38:9-66
+uses-permission#com.fsck.k9.debug.permission.REMOTE_CONTROL
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:43:5-81
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:43:22-79
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-permission#${applicationId}.permission.READ_MESSAGES
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:45:5-50:46
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:43:22-79
+permission#com.fsck.k9.debug.permission.READ_MESSAGES
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:45:5-50:46
 	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:48:9-52
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:48:9-52
 	android:protectionLevel
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:50:9-44
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:50:9-44
 	android:permissionGroup
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:49:9-68
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:49:9-68
 	android:description
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:47:9-57
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:47:9-57
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:46:9-65
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-uses-permission#${applicationId}.permission.READ_MESSAGES
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:51:5-80
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:46:9-65
+uses-permission#com.fsck.k9.debug.permission.READ_MESSAGES
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:51:5-80
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:51:22-78
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-permission#${applicationId}.permission.DELETE_MESSAGES
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:53:5-58:46
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:51:22-78
+permission#com.fsck.k9.debug.permission.DELETE_MESSAGES
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:53:5-58:46
 	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:56:9-54
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:56:9-54
 	android:protectionLevel
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:58:9-44
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:58:9-44
 	android:permissionGroup
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:57:9-68
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:57:9-68
 	android:description
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:55:9-59
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:55:9-59
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:54:9-67
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-uses-permission#${applicationId}.permission.DELETE_MESSAGES
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:59:5-82
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:54:9-67
+uses-permission#com.fsck.k9.debug.permission.DELETE_MESSAGES
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:59:5-82
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:59:22-80
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-application
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:62:5-438:19
-MERGED from [orar.plugins.Android-PullToRefresh:library:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar.plugins.Android-PullToRefresh/library/unspecified/AndroidManifest.xml:9:5-20
-MERGED from [orar.plugins.openpgp-api-lib:openpgp-api:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar.plugins.openpgp-api-lib/openpgp-api/unspecified/AndroidManifest.xml:11:5-20
-MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.library.changelog/ckchangelog/1.2.1/AndroidManifest.xml:10:5-20
-MERGED from [com.splitwise:tokenautocomplete:2.0.7] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.splitwise/tokenautocomplete/2.0.7/AndroidManifest.xml:11:5-20
-MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.safecontentresolver/safe-content-resolver-v14/0.9.0/AndroidManifest.xml:10:5-20
-MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.safecontentresolver/safe-content-resolver-v21/0.9.0/AndroidManifest.xml:8:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:66:9-41
-	android:allowTaskReparenting
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:64:9-45
-	android:allowBackup
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:68:9-36
-	android:icon
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:65:9-38
-	android:theme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:67:9-48
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:63:9-26
-meta-data#android.app.default_searchable
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:70:9-72:58
-	android:value
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:72:13-56
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:71:13-58
-activity#com.fsck.k9.activity.Accounts
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:74:9-86:20
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:77:13-45
-	android:launchMode
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:78:13-43
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:76:13-43
-	android:uiOptions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:79:13-57
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:75:13-46
-intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:80:13-85:29
-action#android.intent.action.MAIN
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:81:17-68
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:81:25-66
-category#android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:83:17-75
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:83:27-73
-category#android.intent.category.LAUNCHER
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:84:17-76
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:84:27-74
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:59:22-80
 activity#com.fsck.k9.activity.setup.Prefs
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:88:9-93:75
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:88:9-93:75
 	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:92:13-48
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:92:13-48
 	android:excludeFromRecents
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:91:13-46
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:91:13-46
 	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:90:13-43
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:90:13-43
 	android:taskAffinity
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:93:13-73
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:93:13-73
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:89:13-49
-activity#com.fsck.k9.activity.setup.WelcomeMessage
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:95:9-98:60
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:98:13-58
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:97:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:96:13-58
-activity#com.fsck.k9.activity.setup.FontSizeSettings
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:100:9-103:63
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:103:13-61
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:102:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:101:13-60
-activity#com.fsck.k9.activity.setup.AccountSetupBasics
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:105:9-108:65
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:108:13-63
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:107:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:106:13-62
-activity#com.fsck.k9.activity.setup.AccountSetupAccountType
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:110:9-113:71
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:113:13-69
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:112:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:111:13-67
-activity#com.fsck.k9.activity.setup.AccountSetupIncoming
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:115:9-118:67
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:118:13-65
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:117:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:116:13-64
-activity#com.fsck.k9.activity.setup.AccountSetupComposition
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:120:9-123:73
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:123:13-71
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:122:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:121:13-67
-activity#com.fsck.k9.activity.setup.AccountSetupOutgoing
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:125:9-128:67
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:128:13-65
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:127:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:126:13-64
-activity#com.fsck.k9.activity.setup.AccountSetupOptions
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:130:9-133:66
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:133:13-64
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:132:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:131:13-63
-activity#com.fsck.k9.activity.setup.AccountSetupNames
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:135:9-138:64
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:138:13-62
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:137:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:136:13-61
-activity#com.fsck.k9.activity.ChooseFolder
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:140:9-145:52
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:143:13-56
-	android:noHistory
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:144:13-37
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:142:13-43
-	android:theme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:145:13-50
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:141:13-50
-activity#com.fsck.k9.activity.ChooseIdentity
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:147:9-151:52
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:150:13-58
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:149:13-43
-	android:theme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:151:13-50
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:148:13-52
-activity#com.fsck.k9.activity.ManageIdentities
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:153:9-156:62
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:156:13-60
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:155:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:154:13-54
-activity#com.fsck.k9.activity.EditIdentity
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:158:9-161:58
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:161:13-56
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:160:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:159:13-50
-activity#com.fsck.k9.activity.NotificationDeleteConfirmation
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:163:9-168:74
-	android:excludeFromRecents
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:165:13-46
-	android:launchMode
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:166:13-43
-	android:theme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:168:13-72
-	android:taskAffinity
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:167:13-36
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:164:13-68
-activity#com.fsck.k9.activity.setup.AccountSetupCheckSettings
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:172:9-175:73
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:175:13-71
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:174:13-70
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:173:13-69
-activity#com.fsck.k9.activity.setup.AccountSettings
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:177:9-180:65
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:180:13-63
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:179:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:178:13-59
-activity#com.fsck.k9.activity.setup.FolderSettings
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:182:9-186:58
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:185:13-58
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:184:13-43
-	android:theme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:186:13-56
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:183:13-58
-activity#com.fsck.k9.activity.FolderList
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:188:9-196:20
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:190:13-43
-	android:uiOptions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:191:13-57
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:189:13-48
-intent-filter#android.intent.action.MAIN
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:192:13-195:29
-activity#com.fsck.k9.activity.MessageList
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:198:9-214:20
-	android:launchMode
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:201:13-43
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:200:13-43
-	android:uiOptions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:202:13-57
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:199:13-49
-intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:207:13-213:29
-action#android.intent.action.VIEW
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:208:17-68
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:208:25-66
-data
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:209:17-211:45
-	android:host
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:210:21-44
-	android:scheme
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:211:21-43
-activity#com.fsck.k9.activity.MessageCompose
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:216:9-243:20
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:219:13-36
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:220:13-45
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:218:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:217:13-52
-intent-filter#android.intent.action.SENDTO+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:221:13-225:29
-action#android.intent.action.SENDTO
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:222:17-70
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:222:25-68
-intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:226:13-230:29
-action#android.intent.action.SEND
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:227:17-68
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:227:25-66
-intent-filter#android.intent.action.SEND_MULTIPLE+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:231:13-235:29
-action#android.intent.action.SEND_MULTIPLE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:232:17-77
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:232:25-75
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:236:13-242:29
-category#android.intent.category.BROWSABLE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:241:17-77
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:241:27-75
-activity#com.fsck.k9.activity.Search
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:246:9-258:20
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:249:13-50
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:248:13-43
-	android:uiOptions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:250:13-57
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:247:13-44
-intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:251:13-254:29
-action#android.intent.action.SEARCH
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:252:17-70
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:252:25-68
-meta-data#android.app.searchable
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:255:13-257:53
-	android:resource
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:257:17-51
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:256:17-54
-activity#com.fsck.k9.activity.LauncherShortcuts
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:260:9-268:20
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:263:13-52
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:262:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:261:13-55
-intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:264:13-267:29
-action#android.intent.action.CREATE_SHORTCUT
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:265:17-79
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:265:25-77
-activity#com.fsck.k9.activity.EmailAddressList
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:270:9-272:45
-	android:configChanges
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:272:13-43
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:271:13-54
-activity#com.fsck.k9.activity.UnreadWidgetConfiguration
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:274:9-278:20
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:274:19-69
-intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:275:13-277:29
-action#android.appwidget.action.APPWIDGET_CONFIGURE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:276:17-86
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:276:25-84
-activity#com.fsck.k9.activity.UpgradeDatabases
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:280:9-282:62
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:282:13-60
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:281:13-54
-receiver#com.fsck.k9.service.BootReceiver
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:284:9-305:20
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:286:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:285:13-49
-intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:287:13-289:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:288:17-78
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:288:25-76
-intent-filter#android.intent.action.DEVICE_STORAGE_LOW
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:290:13-292:29
-action#android.intent.action.DEVICE_STORAGE_LOW
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:291:17-82
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:291:25-80
-intent-filter#android.intent.action.DEVICE_STORAGE_OK
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:293:13-295:29
-action#android.intent.action.DEVICE_STORAGE_OK
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:294:17-81
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:294:25-79
-intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:296:13-298:29
-action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:297:17-78
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:297:25-76
-intent-filter#android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:299:13-301:29
-action#android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:300:17-90
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:300:25-88
-intent-filter#com.android.sync.SYNC_CONN_STATUS_CHANGED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:302:13-304:29
-action#com.android.sync.SYNC_CONN_STATUS_CHANGED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:303:17-83
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:303:25-81
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:89:13-49
 receiver#com.fsck.k9.service.RemoteControlReceiver
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:307:9-317:20
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:307:9-317:20
 	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:309:13-35
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:309:13-35
 	android:permission
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:310:13-76
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:310:13-76
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:308:13-58
-intent-filter#${applicationId}.K9RemoteControl.set
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:311:13-313:29
-action#${applicationId}.K9RemoteControl.set
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:312:17-78
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:308:13-58
+action#com.fsck.k9.debug.K9RemoteControl.set
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:312:17-78
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:312:25-76
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-intent-filter#${applicationId}.K9RemoteControl.requestAccounts
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:314:13-316:29
-action#${applicationId}.K9RemoteControl.requestAccounts
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:315:17-90
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:312:25-76
+action#com.fsck.k9.debug.K9RemoteControl.requestAccounts
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:315:17-90
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:315:25-88
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-receiver#com.fsck.k9.service.CoreReceiver
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:319:9-321:39
-	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:321:13-37
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:320:13-49
-receiver#com.fsck.k9.service.StorageReceiver
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:323:9-345:20
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:325:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:324:13-52
-intent-filter#android.intent.action.MEDIA_MOUNTED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:326:13-344:29
-action#android.intent.action.MEDIA_MOUNTED
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:336:17-77
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:336:25-75
-receiver#com.fsck.k9.provider.UnreadWidgetProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:347:9-357:20
-	android:label
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:350:13-56
-	android:icon
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:349:13-42
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:348:13-58
-intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:351:13-353:29
-action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:352:17-83
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:352:25-81
-meta-data#android.appwidget.provider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:354:13-356:61
-	android:resource
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:356:17-59
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:355:17-58
-service#com.fsck.k9.service.MailService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:359:9-361:37
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:361:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:360:13-48
-service#com.fsck.k9.notification.NotificationActionService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:363:9-365:37
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:365:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:364:13-67
-service#com.fsck.k9.service.PushService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:367:9-369:37
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:369:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:368:13-48
-service#com.fsck.k9.service.PollService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:371:9-373:37
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:373:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:372:13-48
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:315:25-88
 service#com.fsck.k9.service.RemoteControlService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:375:9-378:78
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:375:9-378:78
 	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:377:13-35
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:377:13-35
 	android:permission
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:378:13-76
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:378:13-76
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:376:13-57
-service#com.fsck.k9.service.SleepService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:380:9-382:37
-	android:enabled
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:382:13-35
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:381:13-49
-service#com.fsck.k9.service.DatabaseUpgradeService
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:384:9-386:39
-	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:386:13-37
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:385:13-59
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:376:13-57
 provider#com.fsck.k9.provider.AttachmentProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:388:9-400:20
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:388:9-400:20
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:388:9-400:20
 	android:readPermission
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:394:13-81
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-	android:authorities
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:390:13-70
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:394:13-81
 	android:grantUriPermissions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:392:13-47
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:392:13-47
+	android:authorities
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:390:13-70
 	android:multiprocess
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:393:13-40
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:393:13-40
 	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:391:13-36
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:391:13-36
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:389:13-56
-meta-data#de.cketti.safecontentresolver.ALLOW_INTERNAL_ACCESS
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:396:13-398:40
-	android:value
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:398:17-37
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:397:17-83
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:389:13-56
 provider#com.fsck.k9.provider.MessageProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:402:9-409:84
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:402:9-409:84
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:402:9-409:84
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:402:9-409:84
 	android:readPermission
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:408:13-79
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-	android:authorities
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:404:13-67
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:408:13-79
 	android:grantUriPermissions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:406:13-47
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:406:13-47
+	android:authorities
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:404:13-67
 	android:multiprocess
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:407:13-40
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:407:13-40
 	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:405:13-36
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:405:13-36
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:403:13-53
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:403:13-53
 	android:writePermission
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:409:13-82
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:409:13-82
 provider#com.fsck.k9.provider.EmailProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:411:9-414:39
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:411:9-414:39
 	android:authorities
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:413:13-66
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:413:13-66
 	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:414:13-37
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:414:13-37
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:412:13-51
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:412:13-51
 provider#com.fsck.k9.provider.DecryptedFileProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:416:9-425:20
-	android:authorities
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:418:13-73
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:416:9-425:20
 	android:grantUriPermissions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:420:13-47
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:420:13-47
+	android:authorities
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:418:13-73
 	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:419:13-37
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:419:13-37
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:417:13-59
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:422:13-424:73
-	android:resource
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:424:17-70
-	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:423:17-67
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:417:13-59
 provider#com.fsck.k9.provider.AttachmentTempFileProvider
-ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:427:9-436:20
-	android:authorities
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:429:13-68
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:427:9-436:20
 	android:grantUriPermissions
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:431:13-47
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:431:13-47
+	android:authorities
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:429:13-68
 	android:exported
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:430:13-37
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:430:13-37
 	android:name
-		ADDED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml:428:13-64
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:428:13-64
+manifest
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+MERGED from [:k9mail-library] /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail-library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-8:12
+MERGED from [:plugins:Android-PullToRefresh:library] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/Android-PullToRefresh/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:plugins:HoloColorPicker] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/HoloColorPicker/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:plugins:openpgp-api-lib:openpgp-api] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/openpgp-api-lib/openpgp-api/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/library-5.4.1.aar/67c52f0a6f2bb2933ee85928de31b39f/AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:support-v4:23.1.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/e15306b3c800b31e8b0c0fba75dfed27/AndroidManifest.xml:17:1-24:12
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/ca108a6d8d73d230ffb13816818bd4ce/AndroidManifest.xml:2:1-12:12
+MERGED from [com.splitwise:tokenautocomplete:2.0.7] /Users/iosif/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/7fbacfb85f3a4b6c28418e44d708fdab/AndroidManifest.xml:2:1-13:12
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:2:1-12:12
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f9797382533ecb74026a085da66268e2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/relinker-1.2.1.aar/b4df59570a8dbf58f2d8ecc17eaad315/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+	package
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:4:5-26
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:2:1-439:12
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:3:5-63
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:6:5-8:35
+	android:required
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:8:9-33
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:7:9-52
+supports-screens
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:10:5-14:38
+	android:largeScreens
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:12:9-36
+	android:smallScreens
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:14:9-36
+	android:normalScreens
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:13:9-37
+	android:anyDensity
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:11:9-34
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:17:5-71
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:17:22-69
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:18:22-74
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:21:22-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:25:5-65
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:25:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:26:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:27:22-78
+application
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:62:5-438:19
+MERGED from [:plugins:Android-PullToRefresh:library] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/Android-PullToRefresh/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-20
+MERGED from [:plugins:Android-PullToRefresh:library] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/Android-PullToRefresh/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:9:5-20
+MERGED from [:plugins:openpgp-api-lib:openpgp-api] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/openpgp-api-lib/openpgp-api/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [:plugins:openpgp-api-lib:openpgp-api] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/openpgp-api-lib/openpgp-api/build/intermediates/manifests/full/debug/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/e15306b3c800b31e8b0c0fba75dfed27/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/e15306b3c800b31e8b0c0fba75dfed27/AndroidManifest.xml:22:5-20
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/ca108a6d8d73d230ffb13816818bd4ce/AndroidManifest.xml:10:5-20
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/ca108a6d8d73d230ffb13816818bd4ce/AndroidManifest.xml:10:5-20
+MERGED from [com.splitwise:tokenautocomplete:2.0.7] /Users/iosif/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/7fbacfb85f3a4b6c28418e44d708fdab/AndroidManifest.xml:11:5-20
+MERGED from [com.splitwise:tokenautocomplete:2.0.7] /Users/iosif/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/7fbacfb85f3a4b6c28418e44d708fdab/AndroidManifest.xml:11:5-20
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:10:5-20
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:10:5-20
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f9797382533ecb74026a085da66268e2/AndroidManifest.xml:8:5-20
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f9797382533ecb74026a085da66268e2/AndroidManifest.xml:8:5-20
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:66:9-41
+	android:allowTaskReparenting
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:64:9-45
+	android:icon
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:65:9-38
+	android:allowBackup
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:68:9-36
+	android:theme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:67:9-48
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:63:9-26
+meta-data#android.app.default_searchable
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:70:9-72:58
+	android:value
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:72:13-56
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:71:13-58
+activity#com.fsck.k9.activity.Accounts
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:74:9-86:20
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:77:13-45
+	android:launchMode
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:78:13-43
+	android:uiOptions
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:79:13-57
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:76:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:75:13-46
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:80:13-85:29
+action#android.intent.action.MAIN
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:81:17-68
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:81:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:83:17-75
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:83:27-73
+category#android.intent.category.LAUNCHER
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:84:27-74
+activity#com.fsck.k9.activity.setup.WelcomeMessage
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:95:9-98:60
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:98:13-58
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:97:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:96:13-58
+activity#com.fsck.k9.activity.setup.FontSizeSettings
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:100:9-103:63
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:103:13-61
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:102:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:101:13-60
+activity#com.fsck.k9.activity.setup.AccountSetupBasics
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:105:9-108:65
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:108:13-63
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:107:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:106:13-62
+activity#com.fsck.k9.activity.setup.AccountSetupAccountType
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:110:9-113:71
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:113:13-69
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:112:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:111:13-67
+activity#com.fsck.k9.activity.setup.AccountSetupIncoming
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:115:9-118:67
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:118:13-65
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:117:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:116:13-64
+activity#com.fsck.k9.activity.setup.AccountSetupComposition
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:120:9-123:73
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:123:13-71
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:122:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:121:13-67
+activity#com.fsck.k9.activity.setup.AccountSetupOutgoing
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:125:9-128:67
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:128:13-65
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:127:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:126:13-64
+activity#com.fsck.k9.activity.setup.AccountSetupOptions
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:130:9-133:66
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:133:13-64
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:132:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:131:13-63
+activity#com.fsck.k9.activity.setup.AccountSetupNames
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:135:9-138:64
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:138:13-62
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:137:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:136:13-61
+activity#com.fsck.k9.activity.ChooseFolder
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:140:9-145:52
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:143:13-56
+	android:noHistory
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:144:13-37
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:142:13-43
+	android:theme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:145:13-50
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:141:13-50
+activity#com.fsck.k9.activity.ChooseIdentity
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:147:9-151:52
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:150:13-58
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:149:13-43
+	android:theme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:151:13-50
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:148:13-52
+activity#com.fsck.k9.activity.ManageIdentities
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:153:9-156:62
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:156:13-60
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:155:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:154:13-54
+activity#com.fsck.k9.activity.EditIdentity
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:158:9-161:58
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:161:13-56
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:160:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:159:13-50
+activity#com.fsck.k9.activity.NotificationDeleteConfirmation
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:163:9-168:74
+	android:excludeFromRecents
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:165:13-46
+	android:launchMode
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:166:13-43
+	android:theme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:168:13-72
+	android:taskAffinity
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:167:13-36
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:164:13-68
+activity#com.fsck.k9.activity.setup.AccountSetupCheckSettings
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:172:9-175:73
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:175:13-71
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:174:13-70
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:173:13-69
+activity#com.fsck.k9.activity.setup.AccountSettings
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:177:9-180:65
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:180:13-63
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:179:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:178:13-59
+activity#com.fsck.k9.activity.setup.FolderSettings
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:182:9-186:58
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:185:13-58
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:184:13-43
+	android:theme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:186:13-56
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:183:13-58
+activity#com.fsck.k9.activity.FolderList
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:188:9-196:20
+	android:uiOptions
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:191:13-57
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:190:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:189:13-48
+intent-filter#android.intent.action.MAIN
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:192:13-195:29
+activity#com.fsck.k9.activity.MessageList
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:198:9-214:20
+	android:launchMode
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:201:13-43
+	android:uiOptions
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:202:13-57
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:200:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:199:13-49
+intent-filter#android.intent.action.VIEW+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:207:13-213:29
+action#android.intent.action.VIEW
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:208:17-68
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:208:25-66
+data
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:209:17-211:45
+	android:host
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:210:21-44
+	android:scheme
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:211:21-43
+	android:mimeType
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:228:23-45
+activity#com.fsck.k9.activity.MessageCompose
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:216:9-243:20
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:219:13-36
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:220:13-45
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:218:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:217:13-52
+intent-filter#android.intent.action.SENDTO+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:221:13-225:29
+action#android.intent.action.SENDTO
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:222:17-70
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:222:25-68
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:226:13-230:29
+action#android.intent.action.SEND
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:227:17-68
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:227:25-66
+intent-filter#android.intent.action.SEND_MULTIPLE+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:231:13-235:29
+action#android.intent.action.SEND_MULTIPLE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:232:17-77
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:232:25-75
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:236:13-242:29
+category#android.intent.category.BROWSABLE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:241:17-77
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:241:27-75
+activity#com.fsck.k9.activity.Search
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:246:9-258:20
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:249:13-50
+	android:uiOptions
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:250:13-57
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:248:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:247:13-44
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:251:13-254:29
+action#android.intent.action.SEARCH
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:252:17-70
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:252:25-68
+meta-data#android.app.searchable
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:255:13-257:53
+	android:resource
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:257:17-51
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:256:17-54
+activity#com.fsck.k9.activity.LauncherShortcuts
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:260:9-268:20
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:263:13-52
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:262:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:261:13-55
+intent-filter#android.intent.action.CREATE_SHORTCUT+android.intent.category.DEFAULT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:264:13-267:29
+action#android.intent.action.CREATE_SHORTCUT
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:265:17-79
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:265:25-77
+activity#com.fsck.k9.activity.EmailAddressList
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:270:9-272:45
+	android:configChanges
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:272:13-43
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:271:13-54
+activity#com.fsck.k9.activity.UnreadWidgetConfiguration
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:274:9-278:20
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:274:19-69
+intent-filter#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:275:13-277:29
+action#android.appwidget.action.APPWIDGET_CONFIGURE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:276:17-86
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:276:25-84
+activity#com.fsck.k9.activity.UpgradeDatabases
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:280:9-282:62
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:282:13-60
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:281:13-54
+receiver#com.fsck.k9.service.BootReceiver
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:284:9-305:20
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:286:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:285:13-49
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:287:13-289:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:288:17-78
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:288:25-76
+intent-filter#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:290:13-292:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:291:17-82
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:291:25-80
+intent-filter#android.intent.action.DEVICE_STORAGE_OK
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:293:13-295:29
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:294:17-81
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:294:25-79
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:296:13-298:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:297:17-78
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:297:25-76
+intent-filter#android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:299:13-301:29
+action#android.net.conn.BACKGROUND_DATA_SETTING_CHANGED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:300:17-90
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:300:25-88
+intent-filter#com.android.sync.SYNC_CONN_STATUS_CHANGED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:302:13-304:29
+action#com.android.sync.SYNC_CONN_STATUS_CHANGED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:303:17-83
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:303:25-81
+receiver#com.fsck.k9.service.CoreReceiver
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:319:9-321:39
+	android:exported
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:321:13-37
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:320:13-49
+receiver#com.fsck.k9.service.StorageReceiver
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:323:9-345:20
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:325:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:324:13-52
+intent-filter#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:326:13-344:29
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:336:17-77
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:336:25-75
+receiver#com.fsck.k9.provider.UnreadWidgetProvider
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:347:9-357:20
+	android:label
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:350:13-56
+	android:icon
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:349:13-42
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:348:13-58
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:351:13-353:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:352:17-83
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:352:25-81
+meta-data#android.appwidget.provider
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:354:13-356:61
+	android:resource
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:356:17-59
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:355:17-58
+service#com.fsck.k9.service.MailService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:359:9-361:37
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:361:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:360:13-48
+service#com.fsck.k9.notification.NotificationActionService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:363:9-365:37
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:365:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:364:13-67
+service#com.fsck.k9.service.PushService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:367:9-369:37
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:369:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:368:13-48
+service#com.fsck.k9.service.PollService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:371:9-373:37
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:373:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:372:13-48
+service#com.fsck.k9.service.SleepService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:380:9-382:37
+	android:enabled
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:382:13-35
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:381:13-49
+service#com.fsck.k9.service.DatabaseUpgradeService
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:384:9-386:39
+	android:exported
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:386:13-37
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:385:13-59
 uses-sdk
-INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [orar:k9mail-library:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar/k9mail-library/unspecified/AndroidManifest.xml:6:5-44
-MERGED from [orar.plugins.Android-PullToRefresh:library:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar.plugins.Android-PullToRefresh/library/unspecified/AndroidManifest.xml:7:5-43
-MERGED from [orar.plugins:HoloColorPicker:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar.plugins/HoloColorPicker/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [orar.plugins.openpgp-api-lib:openpgp-api:unspecified] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/orar.plugins.openpgp-api-lib/openpgp-api/unspecified/AndroidManifest.xml:7:5-9:41
-MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.library.changelog/ckchangelog/1.2.1/AndroidManifest.xml:6:5-8:41
-MERGED from [com.splitwise:tokenautocomplete:2.0.7] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.splitwise/tokenautocomplete/2.0.7/AndroidManifest.xml:7:5-9:41
-MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.safecontentresolver/safe-content-resolver-v14/0.9.0/AndroidManifest.xml:6:5-8:65
-MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.safecontentresolver/safe-content-resolver-v21/0.9.0/AndroidManifest.xml:6:5-44
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.1/AndroidManifest.xml:7:5-43
-MERGED from [com.github.amlcurran.showcaseview:library:5.4.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.4.1/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:23.1.1] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+MERGED from [:k9mail-library] /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail-library/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-44
+MERGED from [:k9mail-library] /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail-library/build/intermediates/manifests/full/debug/AndroidManifest.xml:6:5-44
+MERGED from [:plugins:Android-PullToRefresh:library] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/Android-PullToRefresh/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-43
+MERGED from [:plugins:Android-PullToRefresh:library] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/Android-PullToRefresh/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-43
+MERGED from [:plugins:HoloColorPicker] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/HoloColorPicker/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:plugins:HoloColorPicker] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/HoloColorPicker/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:plugins:openpgp-api-lib:openpgp-api] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/openpgp-api-lib/openpgp-api/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:plugins:openpgp-api-lib:openpgp-api] /Users/iosif/Documents/Projects/Android/unitbv_android/plugins/openpgp-api-lib/openpgp-api/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/library-5.4.1.aar/67c52f0a6f2bb2933ee85928de31b39f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.amlcurran.showcaseview:library:5.4.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/library-5.4.1.aar/67c52f0a6f2bb2933ee85928de31b39f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:23.1.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/e15306b3c800b31e8b0c0fba75dfed27/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/support-v4-23.1.1.aar/e15306b3c800b31e8b0c0fba75dfed27/AndroidManifest.xml:20:5-43
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/ca108a6d8d73d230ffb13816818bd4ce/AndroidManifest.xml:6:5-8:41
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/ckchangelog-1.2.1.aar/ca108a6d8d73d230ffb13816818bd4ce/AndroidManifest.xml:6:5-8:41
+MERGED from [com.splitwise:tokenautocomplete:2.0.7] /Users/iosif/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/7fbacfb85f3a4b6c28418e44d708fdab/AndroidManifest.xml:7:5-9:41
+MERGED from [com.splitwise:tokenautocomplete:2.0.7] /Users/iosif/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.7.aar/7fbacfb85f3a4b6c28418e44d708fdab/AndroidManifest.xml:7:5-9:41
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:6:5-8:65
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:6:5-8:65
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f9797382533ecb74026a085da66268e2/AndroidManifest.xml:6:5-44
+MERGED from [de.cketti.safecontentresolver:safe-content-resolver-v21:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v21-0.9.0.aar/f9797382533ecb74026a085da66268e2/AndroidManifest.xml:6:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/relinker-1.2.1.aar/b4df59570a8dbf58f2d8ecc17eaad315/AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.1] /Users/iosif/.gradle/caches/transforms-1/files-1.1/relinker-1.2.1.aar/b4df59570a8dbf58f2d8ecc17eaad315/AndroidManifest.xml:7:5-43
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/exploded-aar/de.cketti.safecontentresolver/safe-content-resolver-v14/0.9.0/AndroidManifest.xml:8:9-62
+		ADDED from [de.cketti.safecontentresolver:safe-content-resolver-v14:0.9.0] /Users/iosif/.gradle/caches/transforms-1/files-1.1/safe-content-resolver-v14-0.9.0.aar/56077c273612c2f35a3e6c87313d942c/AndroidManifest.xml:8:9-62
 	android:targetSdkVersion
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
-		INJECTED from /home/iosif/Documents/Projects/Android/orar/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+		INJECTED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml
+intent-filter#com.fsck.k9.debug.K9RemoteControl.set
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:311:13-313:29
+intent-filter#com.fsck.k9.debug.K9RemoteControl.requestAccounts
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:314:13-316:29
+meta-data#de.cketti.safecontentresolver.ALLOW_INTERNAL_ACCESS
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:396:13-398:40
+	android:value
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:398:17-37
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:397:17-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:422:13-424:73
+	android:resource
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:424:17-70
+	android:name
+		ADDED from /Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/AndroidManifest.xml:423:17-67

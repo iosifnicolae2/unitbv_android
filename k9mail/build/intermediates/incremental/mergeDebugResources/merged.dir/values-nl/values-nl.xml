@@ -324,31 +324,31 @@
     <string name="accountlist_preferences">Account Lijst</string>
     <string name="accounts_context_menu_title">Account opties</string>
     <string name="accounts_title">Accounts</string>
-    <string name="accounts_welcome"> &lt;p> K-9 Mail is een krachtige e-mail cliënt voor Android. &lt;/p>&lt;p> De verbeterde mogelijkheden bestaan uit ondermeer:
-&lt;/p>
-&lt;ul>
-&lt;li>Push mail ddormiddel van IMAP IDLE&lt;/li> 
-&lt;li>Betere prestaties&lt;/li> 
-&lt;li>Bericht herclassificatie&lt;/li> 
-&lt;li>E-mail handtekeningen&lt;/li> 
-&lt;li>Bcc naar jezelf&lt;/li> 
-&lt;li>Map abonnementen&lt;/li> 
-&lt;li>Synchronisatie van alle mappen&lt;/li> 
-&lt;li>Antwoord adres instellen&lt;/li> 
-&lt;li>Toetsenbord snelkoppelingen&lt;/li> 
-&lt;li>Betere IMAP ondersteuning&lt;/li> 
-&lt;li>Bijlage opslaan naar SD&lt;/li> 
-&lt;li>Prullenbak legen&lt;/li> 
-&lt;li>Berichten sorteren&lt;/li> 
-&lt;li>…en meer&lt;/li> 
-&lt;/ul> 
-&lt;p> 
+    <string name="accounts_welcome"><![CDATA[ <p> K-9 Mail is een krachtige e-mail cliënt voor Android. </p><p> De verbeterde mogelijkheden bestaan uit ondermeer:
+</p>
+<ul>
+<li>Push mail ddormiddel van IMAP IDLE</li> 
+<li>Betere prestaties</li> 
+<li>Bericht herclassificatie</li> 
+<li>E-mail handtekeningen</li> 
+<li>Bcc naar jezelf</li> 
+<li>Map abonnementen</li> 
+<li>Synchronisatie van alle mappen</li> 
+<li>Antwoord adres instellen</li> 
+<li>Toetsenbord snelkoppelingen</li> 
+<li>Betere IMAP ondersteuning</li> 
+<li>Bijlage opslaan naar SD</li> 
+<li>Prullenbak legen</li> 
+<li>Berichten sorteren</li> 
+<li>…en meer</li> 
+</ul> 
+<p> 
 Houd er rekening mee dat K-9 de meeste gratis Hotmail-accounts niet ondersteund, en net als veel e-mailclients, problemen kan hebben om te verbinden met Microsoft Exchange. 
-&lt;/p>&lt;p> 
+</p><p> 
 Graag foutrapporten sturen, bijdragen voor nieuwe functies en vragen stellen op 
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>. 
-&lt;/p> 
-</string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>. 
+</p> 
+]]></string>
     <string name="action_remote_search">Zoek berichten op server</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> geselecteerd</string>
     <string name="activate_account_action">Activeer</string>
@@ -955,7 +955,7 @@ Graag foutrapporten sturen, bijdragen voor nieuwe functies en vragen stellen op
     <string name="tap_hint">Tik de cirkel of ster aan voor ongelezen of gemarkeerde berichten</string>
     <string name="trash_folder_label">Prullenbak map naam</string>
     <string name="unflag_action">Verwijder ster</string>
-    <string name="unknown_recipient">&lt;Onbekende ontvanger></string>
+    <string name="unknown_recipient"><![CDATA[<Onbekende ontvanger>]]></string>
     <string name="unread_modifier"> - Ongelezen</string>
     <string name="unread_widget_label">K-9 Ongelezen</string>
     <string name="unread_widget_select_account">Laat ongelezen zien voor…</string>

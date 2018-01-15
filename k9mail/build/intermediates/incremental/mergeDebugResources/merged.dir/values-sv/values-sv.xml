@@ -324,35 +324,35 @@
     <string name="accountlist_preferences">Kontolista</string>
     <string name="accounts_context_menu_title">Kontoinställningar</string>
     <string name="accounts_title">Konton</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Epost är en kraftfull fri epostklient för Android.
-&lt;/p>&lt;p>
+</p><p>
 Några av funktionerna som förbättrats är:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push med IMAP IDLE&lt;/li>
-  &lt;li>Bättre prestanda&lt;/li>
-  &lt;li>Meddelandelagring&lt;/li>
-  &lt;li>Epostsignaturer&lt;/li>
-  &lt;li>Bcc-to-self&lt;/li>
-  &lt;li>Mapprenumerationer&lt;/li>
-  &lt;li>Synkronisera alla mappar&lt;/li>
-  &lt;li>Inställning av svarsadress&lt;/li>
-  &lt;li>Tangentbordsgenvägar&lt;/li>
-  &lt;li>Bättre stöd för IMAP&lt;/li>
-  &lt;li>Spara bilagor till minneskort&lt;/li>
-  &lt;li>Tömma papperskorgen&lt;/li>
-  &lt;li>Meddelandesortering&lt;/li>
-  &lt;li>…och mycket annat&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push med IMAP IDLE</li>
+  <li>Bättre prestanda</li>
+  <li>Meddelandelagring</li>
+  <li>Epostsignaturer</li>
+  <li>Bcc-to-self</li>
+  <li>Mapprenumerationer</li>
+  <li>Synkronisera alla mappar</li>
+  <li>Inställning av svarsadress</li>
+  <li>Tangentbordsgenvägar</li>
+  <li>Bättre stöd för IMAP</li>
+  <li>Spara bilagor till minneskort</li>
+  <li>Tömma papperskorgen</li>
+  <li>Meddelandesortering</li>
+  <li>…och mycket annat</li>
+</ul>
+<p>
 Observera att K-9 inte stödjer gratiskonton på Hotmail och har, som så många andra epostklienter, svårt att prata med Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Skicka gärna in rapporter om buggar, eller bidra med nya funktioner eller ställ frågor på 
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Sök meddelanden på servern</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> valda</string>
     <string name="activate_account_action">Aktivera</string>
@@ -955,7 +955,7 @@ Skicka gärna in rapporter om buggar, eller bidra med nya funktioner eller stäl
     <string name="tap_hint">Tryck på cirkel eller stjärna för olästa eller stjärnmärkta meddelanden</string>
     <string name="trash_folder_label">Namn på papperskorgen</string>
     <string name="unflag_action">Ta bort stjärna</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - Olästa</string>
     <string name="unread_widget_label">K-9 Olästa</string>
     <string name="unread_widget_select_account">Visa antal olästa för…</string>

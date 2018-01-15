@@ -312,35 +312,35 @@
     <string name="accountlist_preferences">Kontoliste</string>
     <string name="accounts_context_menu_title">Kontoindstillinger</string>
     <string name="accounts_title">Konti</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail er en kraftfuld gratis ebrev klient til Android.
-&lt;/p>&lt;p>
+</p><p>
 Dens forbedrede funktioner omfatter:
-&lt;/p>
-&lt;ul>
-  &lt;li>\"Push mail\" ved hjælp af IMAP IDLE&lt;/li>
-  &lt;li>Bedre ydeevne&lt;/li>
-  &lt;li>Besked genarkivering&lt;/li>
-  &lt;li>Ebrev signaturer&lt;/li>
-  &lt;li>Bcc-til-dig-selv&lt;/li>
-  &lt;li>Mappeabonnementer&lt;/li>
-  &lt;li>Synkronisering af alle mapper&lt;/li>
-  &lt;li>Retur-adresse konfiguration&lt;/li>
-  &lt;li>Tastaturgenveje&lt;/li>
-  &lt;li>Bedre IMAP understøttelse&lt;/li>
-  &lt;li>Gemme vedhæftede filer på SD&lt;/li>
-  &lt;li>Tøm papirkurv&lt;/li>
-  &lt;li>Besked sortering&lt;/li>
-  &lt;li>…og mere&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>\"Push mail\" ved hjælp af IMAP IDLE</li>
+  <li>Bedre ydeevne</li>
+  <li>Besked genarkivering</li>
+  <li>Ebrev signaturer</li>
+  <li>Bcc-til-dig-selv</li>
+  <li>Mappeabonnementer</li>
+  <li>Synkronisering af alle mapper</li>
+  <li>Retur-adresse konfiguration</li>
+  <li>Tastaturgenveje</li>
+  <li>Bedre IMAP understøttelse</li>
+  <li>Gemme vedhæftede filer på SD</li>
+  <li>Tøm papirkurv</li>
+  <li>Besked sortering</li>
+  <li>…og mere</li>
+</ul>
+<p>
 Bemærk, at K-9 ikke understøtter de fleste gratis Hotmail konti, og ligesom mange mail klienter, har nogle påhit, når du taler til Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Send venligst fejlrapporter, forslag til nye funktioner samt spørgsmål på:
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Søg i meddelelser på server</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> valgt</string>
     <string name="activate_account_action">Aktiver</string>

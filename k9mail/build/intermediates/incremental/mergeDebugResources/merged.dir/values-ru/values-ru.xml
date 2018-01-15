@@ -338,35 +338,35 @@
     <string name="accountlist_preferences">Список ящиков</string>
     <string name="accounts_context_menu_title">Действия с ящиком</string>
     <string name="accounts_title">Ящики</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail — почтовый клиент для Android.
-&lt;/p>&lt;p>
+</p><p>
 Возможности:
-&lt;/p>
-&lt;ul>
-  &lt;li>push-уведомления,&lt;/li>
-  &lt;li>быстрая работа,&lt;/li>
-  &lt;li>перемещение сообщений,&lt;/li>
-  &lt;li>несколько подписей,&lt;/li>
-  &lt;li>скрытая копия себе,&lt;/li>
-  &lt;li>подписка на папки,&lt;/li>
-  &lt;li>синхронизация всех папок,&lt;/li>
-  &lt;li>адрес для ответа,&lt;/li>
-  &lt;li>горячие клавиши,&lt;/li>
-  &lt;li>улучшенная поддержка IMAP,&lt;/li>
-  &lt;li>сохранение вложений,&lt;/li>
-  &lt;li>очистка корзины,&lt;/li>
-  &lt;li>сортировка сообщений,&lt;/li>
-  &lt;li>…и многое другое!&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>push-уведомления,</li>
+  <li>быстрая работа,</li>
+  <li>перемещение сообщений,</li>
+  <li>несколько подписей,</li>
+  <li>скрытая копия себе,</li>
+  <li>подписка на папки,</li>
+  <li>синхронизация всех папок,</li>
+  <li>адрес для ответа,</li>
+  <li>горячие клавиши,</li>
+  <li>улучшенная поддержка IMAP,</li>
+  <li>сохранение вложений,</li>
+  <li>очистка корзины,</li>
+  <li>сортировка сообщений,</li>
+  <li>…и многое другое!</li>
+</ul>
+<p>
 Отметим, что K-9 Mail не полностью совместим с MS Exchange и не поддерживает бесплатные ящики Hotmail.
-&lt;/p>&lt;p>
+</p><p>
 Вопросы, сообщения об ошибках и участие в разработке:
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Поиск на сервере</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> выбрано</string>
     <string name="activate_account_action">Включить</string>
@@ -977,7 +977,7 @@ K-9 Mail — почтовый клиент для Android.
     <string name="tap_hint">Нажмите на круг или звезду для непрочитанных или важных сообщений</string>
     <string name="trash_folder_label">Папка удалённых</string>
     <string name="unflag_action">Обычное</string>
-    <string name="unknown_recipient">&lt;Неизвестный адресат></string>
+    <string name="unknown_recipient"><![CDATA[<Неизвестный адресат>]]></string>
     <string name="unread_modifier">- не прочитано</string>
     <string name="unread_widget_label">Не прочитано</string>
     <string name="unread_widget_select_account">Счётчик непрочитанных</string>

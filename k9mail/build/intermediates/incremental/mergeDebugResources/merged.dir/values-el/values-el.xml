@@ -324,36 +324,36 @@
     <string name="accountlist_preferences">Λίστα λογαριασμών</string>
     <string name="accounts_context_menu_title">Επιλογές λογαριασμού</string>
     <string name="accounts_title">Λογαριασμοί</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 Το K-9 Mail είναι μία ισχυρή δωρεάν εφαρμογή ηλεκτρονικού ταχυδρομείου για το Android.
-&lt;/p>&lt;p>
+</p><p>
 Τα βελτιωμένα χαρακτηριστικά του περιλαμβάνουν:
-&lt;/p>
-&lt;ul>
-  &lt;li>Ταχυδρομείο με σπρώξιμο (push mail) με χρήση IMAP IDLE&lt;/li>
-  &lt;li>Καλύτερες επιδόσεις&lt;/li>
-  &lt;li>Επαναταξινόμηση μηνύματος&lt;/li>
-  &lt;li>Υπογραφές ηλεκτρονικού ταχυδρομείου&lt;/li>
-  &lt;li>Ιδιωτική κοινοποίηση (bcc) προς εαυτό&lt;/li>
-  &lt;li>Συνδρομές σε φακέλους&lt;/li>
-  &lt;li>Συγχρονισμός όλων των φακέλων&lt;/li>
-  &lt;li>Ρύθμιση διεύθυνσης επιστροφής&lt;/li>
-  &lt;li>Συντομεύσεις πληκτρολογίου&lt;/li>
-  &lt;li>Καλύτερη υποστήριξη IMAP&lt;/li>
-  &lt;li>Αποθήκευση συνημμένων στην κάρτα αποθήκευσης&lt;/li>
-  &lt;li>Άδειασμα απορριμάτων&lt;/li>
-  &lt;li>Ταξινόμηση μηνυμάτων&lt;/li>
-  &lt;li>…και άλλα&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Ταχυδρομείο με σπρώξιμο (push mail) με χρήση IMAP IDLE</li>
+  <li>Καλύτερες επιδόσεις</li>
+  <li>Επαναταξινόμηση μηνύματος</li>
+  <li>Υπογραφές ηλεκτρονικού ταχυδρομείου</li>
+  <li>Ιδιωτική κοινοποίηση (bcc) προς εαυτό</li>
+  <li>Συνδρομές σε φακέλους</li>
+  <li>Συγχρονισμός όλων των φακέλων</li>
+  <li>Ρύθμιση διεύθυνσης επιστροφής</li>
+  <li>Συντομεύσεις πληκτρολογίου</li>
+  <li>Καλύτερη υποστήριξη IMAP</li>
+  <li>Αποθήκευση συνημμένων στην κάρτα αποθήκευσης</li>
+  <li>Άδειασμα απορριμάτων</li>
+  <li>Ταξινόμηση μηνυμάτων</li>
+  <li>…και άλλα</li>
+</ul>
+<p>
 Να σημειωθεί ότι το K-9 δεν υποστηρίζει τους περισσότερους δωρεάν λογαριασμούς Hotmail και,
 όπως οι περισσότερες εφαρμογές ηλεκτρονικού ταχυδρομείου, έχει θεματάκια με το Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Παρακαλώ υποβάλετε αναφορές σφαλμάτων, συμβάλλετε νέα χαρακτηριστικά και θέστε ερωτήσεις στο
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Αναζήτηση μηνυμάτων στον εξυπηρέτη</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> επιλέχθηκαν</string>
     <string name="activate_account_action">Ενεργοποίηση</string>
@@ -956,7 +956,7 @@
     <string name="tap_hint">Πατήστε τον κύκλο ή το αστέρι για μη αναγνωσμένα μηνύματα ή μηνύματα με σήμανση</string>
     <string name="trash_folder_label">Φάκελος Διαγραμμένα</string>
     <string name="unflag_action">Αφαίρεση αστεριού</string>
-    <string name="unknown_recipient">&lt;Άγνωστος Παραλήπτης></string>
+    <string name="unknown_recipient"><![CDATA[<Άγνωστος Παραλήπτης>]]></string>
     <string name="unread_modifier"> - Μη αναγνωσμένα</string>
     <string name="unread_widget_label">Μη αναγνωσμένα K-9</string>
     <string name="unread_widget_select_account">Προβολή πλήθους μη αναγνωσμένων για…</string>

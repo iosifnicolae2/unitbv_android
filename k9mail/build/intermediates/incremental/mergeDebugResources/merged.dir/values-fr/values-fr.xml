@@ -324,36 +324,36 @@
     <string name="accountlist_preferences">Liste des comptes</string>
     <string name="accounts_context_menu_title">Options du compte</string>
     <string name="accounts_title">Comptes</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 Courriel K-9 Mail est un client de courriel puissant et ouvert pour Android.
-&lt;/p>&lt;p>
+</p><p>
 Ses fonctions améliorées incluent :
-&lt;/p>
-&lt;ul>
-  &lt;li>Courriel poussé utilisant IMAP IDLE&lt;/li>
-  &lt;li>Meilleures performances&lt;/li>
-  &lt;li>Réarchivage des messages&lt;/li>
-  &lt;li>Signatures des courriels&lt;/li>
-  &lt;li>Cci-à-soi&lt;/li>
-  &lt;li>Abonnement aux dossiers&lt;/li>
-  &lt;li>Synchronisation de tous les dossiers &lt;/li>
-  &lt;li>Configuration de l\'adresse de retour&lt;/li>
-  &lt;li>Raccourcis clavier&lt;/li>
-  &lt;li>Meilleure prise en charge IMAP&lt;/li>
-  &lt;li>Enregistrements des pièces jointes sur la carte SD&lt;/li>
-  &lt;li>Vidage de la corbeille&lt;/li>
-  &lt;li>Tri des messages&lt;/li>
-  &lt;li>et plus…&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Courriel poussé utilisant IMAP IDLE</li>
+  <li>Meilleures performances</li>
+  <li>Réarchivage des messages</li>
+  <li>Signatures des courriels</li>
+  <li>Cci-à-soi</li>
+  <li>Abonnement aux dossiers</li>
+  <li>Synchronisation de tous les dossiers </li>
+  <li>Configuration de l\'adresse de retour</li>
+  <li>Raccourcis clavier</li>
+  <li>Meilleure prise en charge IMAP</li>
+  <li>Enregistrements des pièces jointes sur la carte SD</li>
+  <li>Vidage de la corbeille</li>
+  <li>Tri des messages</li>
+  <li>et plus…</li>
+</ul>
+<p>
 Veuillez noter que K-9 ne prend pas en charge la plupart des comptes 
 Hotmail gratuits et que, comme pour beaucoup de clients de courriel, la communication avec Microsoft Exchange est capricieuse.
-&lt;/p>&lt;p>
+</p><p>
 Veuillez rapporter les bogues, recommander de nouvelles fonctions et poser vos questions sur
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-</string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+]]></string>
     <string name="action_remote_search">Rechercher des messages sur le serveur</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> sélectionné(s)</string>
     <string name="activate_account_action">Activer</string>
@@ -960,7 +960,7 @@ jusqu\'à <ns1:g id="messages_to_load">%d</ns1:g> de plus</string>
     <string name="tap_hint">Toucher le cercle ou l\'étoile affiche les messages non lus ou étoilés</string>
     <string name="trash_folder_label">Dossier de la corbeille</string>
     <string name="unflag_action">Enlever l\'étoile</string>
-    <string name="unknown_recipient">&lt;Destinataire inconnu></string>
+    <string name="unknown_recipient"><![CDATA[<Destinataire inconnu>]]></string>
     <string name="unread_modifier"> - Non lu</string>
     <string name="unread_widget_label">K-9 non lus</string>
     <string name="unread_widget_select_account">Afficher le nombre de non lus pour…</string>

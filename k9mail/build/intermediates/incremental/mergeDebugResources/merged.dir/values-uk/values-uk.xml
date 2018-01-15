@@ -331,36 +331,36 @@
     <string name="accountlist_preferences">Список облікових записів</string>
     <string name="accounts_context_menu_title">Параметри облікових записів</string>
     <string name="accounts_title">Облікові записи</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail — це вільний клієнт електронної пошти для Android з багатьма можливостями.
-&lt;/p>&lt;p>
+</p><p>
 Його найкращі можливості:
-&lt;/p>
-&lt;ul>
-  &lt;li>Пошта Push з використанням IMAP IDLE&lt;/li>
-  &lt;li>Ефективна робота&lt;/li>
-  &lt;li>Переміщення повідомлень до тек&lt;/li>
-  &lt;li>Підписування електронної пошти&lt;/li>
-  &lt;li>Прихована копія собі&lt;/li>
-  &lt;li>Підписка на IMAP теки&lt;/li>
-  &lt;li>Синхронізація всіх тек&lt;/li>
-  &lt;li>Налаштування адреси для відповіді&lt;/li>
-  &lt;li>Клавіатурні скорочення&lt;/li>
-  &lt;li>Покращена підтримка IMAP&lt;/li>
-  &lt;li>Збереження вкладень до SD пам\'яті&lt;/li>
-  &lt;li>Очищення кошика&lt;/li>
-  &lt;li>Сортування повідомлень&lt;/li>
-  &lt;li>…і більше&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Пошта Push з використанням IMAP IDLE</li>
+  <li>Ефективна робота</li>
+  <li>Переміщення повідомлень до тек</li>
+  <li>Підписування електронної пошти</li>
+  <li>Прихована копія собі</li>
+  <li>Підписка на IMAP теки</li>
+  <li>Синхронізація всіх тек</li>
+  <li>Налаштування адреси для відповіді</li>
+  <li>Клавіатурні скорочення</li>
+  <li>Покращена підтримка IMAP</li>
+  <li>Збереження вкладень до SD пам\'яті</li>
+  <li>Очищення кошика</li>
+  <li>Сортування повідомлень</li>
+  <li>…і більше</li>
+</ul>
+<p>
 Зверніть увагу, що K-9 не підтримує більшість безкоштовних облікових записів Hotmail, а також, як і багато поштових програм, виявляє
 деякі дивацтва при роботі з Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Будь ласка, звітуйте про недоліки, пропонуйте нові можливості та задавайте запитання на
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Шукати повідомлення на сервері</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> вибраний</string>
     <string name="activate_account_action">Активувати</string>
@@ -923,7 +923,7 @@ K-9 Mail — це вільний клієнт електронної пошти 
     <string name="tap_hint">Торкніться кола або зірочки, щоб переглянути непрочитані або позначені зірочкою повідомлення</string>
     <string name="trash_folder_label">Назва теки Кошик</string>
     <string name="unflag_action">Видалити зірочку</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - Непрочитані</string>
     <string name="unread_widget_label">K-9 Непрочитані</string>
     <string name="unread_widget_select_account">Показати кількість непрочитаних для…</string>

@@ -318,36 +318,36 @@
     <string name="accountlist_preferences">アカウント一覧</string>
     <string name="accounts_context_menu_title">アカウントオプション</string>
     <string name="accounts_title">アカウント一覧</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail は Android 向けの強力なフリーのメールクライアントです。
-&lt;/p>&lt;p>
+</p><p>
 改良された機能:
-&lt;/p>
-&lt;ul>
-  &lt;li>IMAP IDLEを利用したプッシュメール&lt;/li>
-  &lt;li>パフォーマンス改善&lt;/li>
-  &lt;li>メッセージ整理&lt;/li>
-  &lt;li>電子メール署名&lt;/li>
-  &lt;li>Bcc-to-self&lt;/li>
-  &lt;li>フォルダ購読&lt;/li>
-  &lt;li>全フォルダ同期&lt;/li>
-  &lt;li>返信先の設定&lt;/li>
-  &lt;li>キーボードショートカット&lt;/li>
-  &lt;li>IMAPサポート改善&lt;/li>
-  &lt;li>添付ファイルをSDカードに保存&lt;/li>
-  &lt;li>ゴミ箱を空にする機能&lt;/li>
-  &lt;li>メッセージのソート&lt;/li>
-  &lt;li>…他にもたくさんあります&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>IMAP IDLEを利用したプッシュメール</li>
+  <li>パフォーマンス改善</li>
+  <li>メッセージ整理</li>
+  <li>電子メール署名</li>
+  <li>Bcc-to-self</li>
+  <li>フォルダ購読</li>
+  <li>全フォルダ同期</li>
+  <li>返信先の設定</li>
+  <li>キーボードショートカット</li>
+  <li>IMAPサポート改善</li>
+  <li>添付ファイルをSDカードに保存</li>
+  <li>ゴミ箱を空にする機能</li>
+  <li>メッセージのソート</li>
+  <li>…他にもたくさんあります</li>
+</ul>
+<p>
 K-9 は大多数のメールクライアントと同様に、ほとんどのフリー Hotmail アカウントをサポートしていません。
 また、 Microsoft Exchange との通信において少し癖があることに注意してください。 
-&lt;/p>&lt;p>
-バグレポートや新機能の貢献、質問は &lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a> にお願いします。
-日本語で質問などがある場合は &lt;a href=\"http://groups.google.co.jp/group/k9mail_ja/\">http://groups.google.co.jp/group/k9mail_ja/&lt;/a> を参照してください。
-&lt;/p>
-</string>
+</p><p>
+バグレポートや新機能の貢献、質問は <a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a> にお願いします。
+日本語で質問などがある場合は <a href=\"http://groups.google.co.jp/group/k9mail_ja/\">http://groups.google.co.jp/group/k9mail_ja/</a> を参照してください。
+</p>
+]]></string>
     <string name="action_remote_search">サーバでメッセージを検索する</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g>件選択しました</string>
     <string name="activate_account_action">有効</string>
@@ -954,7 +954,7 @@ K-9 は大多数のメールクライアントと同様に、ほとんどのフ�
     <string name="tap_hint">未読またはスター付きメッセージを見るには丸またはスターをタップします</string>
     <string name="trash_folder_label">ゴミ箱フォルダ名</string>
     <string name="unflag_action">スターをはずす</string>
-    <string name="unknown_recipient">&lt;不明な受信者></string>
+    <string name="unknown_recipient"><![CDATA[<不明な受信者>]]></string>
     <string name="unread_modifier"> - 未読</string>
     <string name="unread_widget_label">未読件数</string>
     <string name="unread_widget_select_account">アカウントの未読件数を表示</string>

@@ -331,35 +331,35 @@
     <string name="accountlist_preferences">Kontu saraksts</string>
     <string name="accounts_context_menu_title">Konta iespējas</string>
     <string name="accounts_title">Konti</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail ir spēcīga bezmaksas e-pasta programma Android operētājsistēmai.
-&lt;/p>&lt;p>
+</p><p>
 Tās uzlaboto iespēju skaitā ir:
-&lt;/p>
-&lt;ul>
-  &lt;li>Pasta lejupielādēšana, izmantojot IMAP IDLE&lt;/li>
-  &lt;li>Labāka veiktspēja&lt;/li>
-  &lt;li>Vēstuļu arhivēšana&lt;/li>
-  &lt;li>E-pasta paraksti&lt;/li>
-  &lt;li>Bcc-pašam sev&lt;/li>
-  &lt;li>Pieteikšanās mapēm&lt;/li>
-  &lt;li>Visu mapju sinhronizēšana&lt;/li>
-  &lt;li>Atpakaļsūtīšanas adreses iestatīšana&lt;/li>
-  &lt;li>Tastatūras īsceļi&lt;/li>
-  &lt;li>Labāks IMAP atbalsts&lt;/li>
-  &lt;li>Pielikumu saglabāšana uz SD kartes&lt;/li>
-  &lt;li>Miskastes iztukšošana&lt;/li>
-  &lt;li>Vēstuļu kārtošana&lt;/li>
-  &lt;li>…un daudz kas cits&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Pasta lejupielādēšana, izmantojot IMAP IDLE</li>
+  <li>Labāka veiktspēja</li>
+  <li>Vēstuļu arhivēšana</li>
+  <li>E-pasta paraksti</li>
+  <li>Bcc-pašam sev</li>
+  <li>Pieteikšanās mapēm</li>
+  <li>Visu mapju sinhronizēšana</li>
+  <li>Atpakaļsūtīšanas adreses iestatīšana</li>
+  <li>Tastatūras īsceļi</li>
+  <li>Labāks IMAP atbalsts</li>
+  <li>Pielikumu saglabāšana uz SD kartes</li>
+  <li>Miskastes iztukšošana</li>
+  <li>Vēstuļu kārtošana</li>
+  <li>…un daudz kas cits</li>
+</ul>
+<p>
 Lūdzu, ņemiet vērā, kā K-9 neatbalsta lielāko daļu bezmaksas Hotmail kontu, un tāpat kā daudzām citām e-pasta programmām tai mēdz būt problēmas ar Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Lūdzu, iesniedziet kļūdu ziņojumus, ierosiniet jaunas iespējas un uzdodiet jautājumus
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Meklēt vēstules serverī</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> atzīmēts</string>
     <string name="activate_account_action">Aktivizēt</string>
@@ -959,7 +959,7 @@ pat <ns1:g id="messages_to_load">%d</ns1:g> vairāk</string>
     <string name="tap_hint">Nospiediet uz aplīša vai zvaigznītes, lai apskatītos nelasītās vai iezīmētās vēstules!</string>
     <string name="trash_folder_label">Miskastes mape</string>
     <string name="unflag_action">Noņemt zvaigznīti</string>
-    <string name="unknown_recipient">&lt;Nezināms saņēmējs></string>
+    <string name="unknown_recipient"><![CDATA[<Nezināms saņēmējs>]]></string>
     <string name="unread_modifier">- nelasīts</string>
     <string name="unread_widget_label">K-9 Nelasīts</string>
     <string name="unread_widget_select_account">Parādīt nelasīto vēstuļu skaitu…</string>

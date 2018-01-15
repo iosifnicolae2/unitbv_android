@@ -1,49 +1,52 @@
-[
-    {
-        "outputFile": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 9,
-                    "endColumn": 12,
-                    "endOffset": 436
-                },
-                "from": {
-                    "file": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-sw600dp-port/styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 115,
-                        "endLine": 10,
-                        "endColumn": 12,
-                        "endOffset": 496
+{
+    "logs": [
+        {
+            "outputFile": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-sw600dp-port/styles.xml",
+                    "from": {
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "115,502",
+                        "endLines": "10,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "496,810"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,441",
+                        "endLines": "9,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "436,749"
                     }
                 }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 441,
-                    "endLine": 16,
-                    "endColumn": 12,
-                    "endOffset": 749
-                },
-                "from": {
-                    "file": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-sw600dp-port/styles.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 502,
-                        "endLine": 18,
-                        "endColumn": 12,
-                        "endOffset": 810
+            ]
+        },
+        {
+            "outputFile": "/Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-port-v13/values-sw600dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/res/values-sw600dp-port/styles.xml",
+                    "from": {
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "115,502",
+                        "endLines": "10,18",
+                        "endColumns": "12,12",
+                        "endOffsets": "496,810"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,441",
+                        "endLines": "9,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "436,749"
                     }
                 }
-            }
-        ]
-    }
-]
+            ]
+        }
+    ]
+}

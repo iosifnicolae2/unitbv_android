@@ -324,35 +324,35 @@
     <string name="accountlist_preferences">Lista de cuentas</string>
     <string name="accounts_context_menu_title">Configuración de cuenta</string>
     <string name="accounts_title">Cuentas</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail es un cliente de correo potente para Android.
-&lt;/p>&lt;p>
+</p><p>
 Sus características mejoradas incluyen:
-&lt;/p>
-&lt;ul>
-  &lt;li>Correo «push» usando IMAP IDLE&lt;/li>
-  &lt;li>Mejor rendimiento&lt;/li>
-  &lt;li>Archivado de mensajes&lt;/li>
-  &lt;li>Firmas de correo&lt;/li>
-  &lt;li>Cco-a-sí-mismo&lt;/li>
-  &lt;li>Suscripciones a carpetas&lt;/li>
-  &lt;li>Sincronización de todas las carpetas&lt;/li>
-  &lt;li>Configuración de la dirección de respuesta&lt;/li>
-  &lt;li>Atajos de teclado&lt;/li>
-  &lt;li>Mejor soporte IMAP&lt;/li>
-  &lt;li>Guardar adjuntos a la tarjeta SD&lt;/li>
-  &lt;li>Vaciar la papelera&lt;/li>
-  &lt;li>Ordenación de mensajes&lt;/li>
-  &lt;li>…y más&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Correo «push» usando IMAP IDLE</li>
+  <li>Mejor rendimiento</li>
+  <li>Archivado de mensajes</li>
+  <li>Firmas de correo</li>
+  <li>Cco-a-sí-mismo</li>
+  <li>Suscripciones a carpetas</li>
+  <li>Sincronización de todas las carpetas</li>
+  <li>Configuración de la dirección de respuesta</li>
+  <li>Atajos de teclado</li>
+  <li>Mejor soporte IMAP</li>
+  <li>Guardar adjuntos a la tarjeta SD</li>
+  <li>Vaciar la papelera</li>
+  <li>Ordenación de mensajes</li>
+  <li>…y más</li>
+</ul>
+<p>
 Por favor tenga en cuenta que K-9 no soporta la mayor parte de las cuentas gratuitas de Hotmail, y como muchos clientes de correo, tiene algunas peculiaridades al comunicarse con Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Por favor informe de fallos, aporte nueva funcionalidad o envíe sus preguntas a 
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Buscar mensajes en servidor</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> seleccionados</string>
     <string name="activate_account_action">Activar</string>
@@ -964,7 +964,7 @@ Por favor informe de fallos, aporte nueva funcionalidad o envíe sus preguntas a
     <string name="tap_hint">Toque el círculo o estrella para mensajes sin leer o destacados</string>
     <string name="trash_folder_label">Carpeta Papelera</string>
     <string name="unflag_action">Borrar estrella</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - No leído</string>
     <string name="unread_widget_label">Mensaje K-9 no leído</string>
     <string name="unread_widget_select_account">Mostrar contador no leídos para…</string>

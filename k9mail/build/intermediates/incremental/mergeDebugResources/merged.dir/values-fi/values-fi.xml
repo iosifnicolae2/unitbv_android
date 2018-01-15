@@ -324,35 +324,35 @@
     <string name="accountlist_preferences">Tililista</string>
     <string name="accounts_context_menu_title">Tilin asetukset</string>
     <string name="accounts_title">Tilit</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail on monipuolinen ja vapaa sähköpostisovellus Androidille.
-&lt;/p>&lt;p>
+</p><p>
 Sen moniin ominaisuuksiin kuuluu muun muassa:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push-viestit käyttäen IMAP IDLE -toteutusta&lt;/li>
-  &lt;li>Aiempaa parempi suorituskyky&lt;/li>
-  &lt;li>Viestien arkistointi&lt;/li>
-  &lt;li>Sähköpostin allekirjoitukset&lt;/li>
-  &lt;li>Piilokopioiden lähetys itselle&lt;/li>
-  &lt;li>Kansiotilaukset&lt;/li>
-  &lt;li>Kaikkien kansioiden synkronointi&lt;/li>
-  &lt;li>Vastausosoitteen määritys&lt;/li>
-  &lt;li>Pikanäppäimet&lt;/li>
-  &lt;li>Aiempaa parempi IMAP-tuki&lt;/li>
-  &lt;li>Liitteiden tallennus muistikortille&lt;/li>
-  &lt;li>Roskakorin tyhjennys&lt;/li>
-  &lt;li>Viestien järjestely&lt;/li>
-  &lt;li>…ja paljon muuta&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push-viestit käyttäen IMAP IDLE -toteutusta</li>
+  <li>Aiempaa parempi suorituskyky</li>
+  <li>Viestien arkistointi</li>
+  <li>Sähköpostin allekirjoitukset</li>
+  <li>Piilokopioiden lähetys itselle</li>
+  <li>Kansiotilaukset</li>
+  <li>Kaikkien kansioiden synkronointi</li>
+  <li>Vastausosoitteen määritys</li>
+  <li>Pikanäppäimet</li>
+  <li>Aiempaa parempi IMAP-tuki</li>
+  <li>Liitteiden tallennus muistikortille</li>
+  <li>Roskakorin tyhjennys</li>
+  <li>Viestien järjestely</li>
+  <li>…ja paljon muuta</li>
+</ul>
+<p>
 Huomioitan ettei K-9 tue useimpia ilmaisia Hotmail-tilejä, ja kuten monet muut sovellukset, saattaa kärsiä pienistä ongelmista Microsoft Exchange -ympäristössä.
-&lt;/p>&lt;p>
+</p><p>
 Ilmoita virheistä, ota osaa sovelluskehitykseen ja esitä kysymyksiä osoitteessa
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Etsi viestejä palvelimelta</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> valittu</string>
     <string name="activate_account_action">Aktivoi</string>

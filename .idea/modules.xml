@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/plugins/Android-PullToRefresh/Android-PullToRefresh.iml" filepath="$PROJECT_DIR$/plugins/Android-PullToRefresh/Android-PullToRefresh.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/HoloColorPicker/HoloColorPicker.iml" filepath="$PROJECT_DIR$/plugins/HoloColorPicker/HoloColorPicker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/k9mail/k9mail.iml" filepath="$PROJECT_DIR$/k9mail/k9mail.iml" />
-      <module fileurl="file://$PROJECT_DIR$/k9mail-library/k9mail-library.iml" filepath="$PROJECT_DIR$/k9mail-library/k9mail-library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/Android-PullToRefresh/library/library.iml" filepath="$PROJECT_DIR$/plugins/Android-PullToRefresh/library/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/openpgp-api-lib/openpgp-api/openpgp-api.iml" filepath="$PROJECT_DIR$/plugins/openpgp-api-lib/openpgp-api/openpgp-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/openpgp-api-lib/openpgp-api-lib.iml" filepath="$PROJECT_DIR$/plugins/openpgp-api-lib/openpgp-api-lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/orar.iml" filepath="$PROJECT_DIR$/orar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/plugins/plugins.iml" filepath="$PROJECT_DIR$/plugins/plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unitbv_android.iml" filepath="$PROJECT_DIR$/unitbv_android.iml" />
     </modules>
   </component>
 </project>

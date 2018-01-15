@@ -1,49 +1,52 @@
-[
-    {
-        "outputFile": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 100,
-                    "endLine": 9,
-                    "endColumn": 12,
-                    "endOffset": 510
-                },
-                "from": {
-                    "file": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-land/styles.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 103,
-                        "endLine": 10,
-                        "endColumn": 12,
-                        "endOffset": 513
+{
+    "logs": [
+        {
+            "outputFile": "/Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/iosif/Documents/Projects/Android/unitbv_android/k9mail/src/main/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "103,519",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "513,936"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,515",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "510,930"
                     }
                 }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 515,
-                    "endLine": 17,
-                    "endColumn": 12,
-                    "endOffset": 930
-                },
-                "from": {
-                    "file": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-land/styles.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 519,
-                        "endLine": 19,
-                        "endColumn": 12,
-                        "endOffset": 936
+            ]
+        },
+        {
+            "outputFile": "/home/iosif/Documents/Projects/Android/orar/k9mail/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/iosif/Documents/Projects/Android/orar/k9mail/src/main/res/values-land/styles.xml",
+                    "from": {
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "103,519",
+                        "endLines": "10,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "513,936"
+                    },
+                    "to": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,515",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "510,930"
                     }
                 }
-            }
-        ]
-    }
-]
+            ]
+        }
+    ]
+}

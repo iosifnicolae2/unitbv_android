@@ -1045,36 +1045,36 @@
     <string name="accountlist_preferences">Account list</string>
     <string name="accounts_context_menu_title">Account options</string>
     <string name="accounts_title">Accounts</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail is a powerful free email client for Android.
-&lt;/p>&lt;p>
+</p><p>
 Its improved features include:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push mail using IMAP IDLE&lt;/li>
-  &lt;li>Better performance&lt;/li>
-  &lt;li>Message refiling&lt;/li>
-  &lt;li>Email signatures&lt;/li>
-  &lt;li>Bcc-to-self&lt;/li>
-  &lt;li>Folder subscriptions&lt;/li>
-  &lt;li>All folder synchronization&lt;/li>
-  &lt;li>Return-address configuration&lt;/li>
-  &lt;li>Keyboard shortcuts&lt;/li>
-  &lt;li>Better IMAP support&lt;/li>
-  &lt;li>Saving attachments to SD&lt;/li>
-  &lt;li>Empty Trash&lt;/li>
-  &lt;li>Message sorting&lt;/li>
-  &lt;li>…and more&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push mail using IMAP IDLE</li>
+  <li>Better performance</li>
+  <li>Message refiling</li>
+  <li>Email signatures</li>
+  <li>Bcc-to-self</li>
+  <li>Folder subscriptions</li>
+  <li>All folder synchronization</li>
+  <li>Return-address configuration</li>
+  <li>Keyboard shortcuts</li>
+  <li>Better IMAP support</li>
+  <li>Saving attachments to SD</li>
+  <li>Empty Trash</li>
+  <li>Message sorting</li>
+  <li>…and more</li>
+</ul>
+<p>
 Please note that K-9 does not support most free Hotmail accounts and, like many mail clients, has
 some quirks when talking to Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Please submit bug reports, contribute new features and ask questions at
-&lt;a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href="https://github.com/k9mail/k-9/">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Search messages on server</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> selected</string>
     <string name="activate_account_action">Activate</string>
@@ -1719,7 +1719,7 @@ Please submit bug reports, contribute new features and ask questions at
     <string name="tap_hint">Tap circle or star for unread or starred messages</string>
     <string name="trash_folder_label">Trash folder</string>
     <string name="unflag_action">Remove star</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - Unread</string>
     <string name="unread_widget_label">K-9 Unread</string>
     <string name="unread_widget_select_account">Show unread count for…</string>

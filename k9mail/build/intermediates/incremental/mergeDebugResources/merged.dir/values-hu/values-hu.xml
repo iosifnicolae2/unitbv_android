@@ -318,36 +318,36 @@
     <string name="accountlist_preferences">Fiókok listája</string>
     <string name="accounts_context_menu_title">Fiók beállításai</string>
     <string name="accounts_title">Fiókok</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 A K-9 egy erőteljes, ingyenes email kliens Androidra.
-&lt;/p>&lt;p>
+</p><p>
 A továbbfejlesztett funkciói tartalmazzák:
-&lt;/p>
-&lt;ul>
-  &lt;li>Levél átküldés IMAP IDLE használatával&lt;/li>
-  &lt;li>Jobb teljesítmény&lt;/li>
-  &lt;li>Üzenet újra-benyújtás&lt;/li>
-  &lt;li>Email aláírások&lt;/li>
-  &lt;li>Titkos másolat&lt;/li>
-  &lt;li>Mappa feliratkozások&lt;/li>
-  &lt;li>Minden mappa szinkronizálása&lt;/li>
-  &lt;li>Visszatérési cím konfigurálás&lt;/li>
-  &lt;li>Gyorsbillentyűk&lt;/li>
-  &lt;li>Jobb IMAP támogatás&lt;/li>
-  &lt;li>Mellékletek mentése SD kártyára&lt;/li>
-  &lt;li>Kuka ürítése&lt;/li>
-  &lt;li>Üzenet rendezés&lt;/li>
-  &lt;li>…és továbbiak&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Levél átküldés IMAP IDLE használatával</li>
+  <li>Jobb teljesítmény</li>
+  <li>Üzenet újra-benyújtás</li>
+  <li>Email aláírások</li>
+  <li>Titkos másolat</li>
+  <li>Mappa feliratkozások</li>
+  <li>Minden mappa szinkronizálása</li>
+  <li>Visszatérési cím konfigurálás</li>
+  <li>Gyorsbillentyűk</li>
+  <li>Jobb IMAP támogatás</li>
+  <li>Mellékletek mentése SD kártyára</li>
+  <li>Kuka ürítése</li>
+  <li>Üzenet rendezés</li>
+  <li>…és továbbiak</li>
+</ul>
+<p>
 Vegye figyelembe, hogy a K-9 nem támogatja a legtöbb ingyenes hotmail fiókot és és mint sok más kliensnél, vannak furcsaságok,
 ha Microsoft Exchange-el kommunikál.
-&lt;/p>&lt;p>
+</p><p>
 Kérünk küldj hibajelentést, hozzájárulva az új verziókhoz, és tegyél fel kérdéseket itt:
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Üzenetek keresése a kiszolgálón</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> kiválasztva</string>
     <string name="activate_account_action">Aktiválás</string>
@@ -874,7 +874,7 @@ Kérünk küldj hibajelentést, hozzájárulva az új verziókhoz, és tegyél f
     <string name="status_syncing_off">Szinkronizálás letiltva</string>
     <string name="trash_folder_label">Lomtár mappája</string>
     <string name="unflag_action">Csillag eltávolítása</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier">- Olvasatlan</string>
     <string name="unread_widget_label">K-9 olvasatlan</string>
     <string name="unread_widget_select_account">Olvasatlan üzenetek számának megjelenítése…</string>

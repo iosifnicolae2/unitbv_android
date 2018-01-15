@@ -13,7 +13,7 @@
         android:label="Tests for com.fsck.k9.mail.test"
         android:targetPackage="com.fsck.k9.mail.test" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

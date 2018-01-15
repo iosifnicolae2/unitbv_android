@@ -338,36 +338,36 @@
     <string name="accountlist_preferences">Seznam računov</string>
     <string name="accounts_context_menu_title">Možnosti računa</string>
     <string name="accounts_title">Računi</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail je napreden brezplačen epoštni odjemalec za naprave Android.
-&lt;/p>&lt;p>
+</p><p>
 Njegove izboljšane storitve vsebujejo:
-&lt;/p>
-&lt;ul>
-&lt;li>Push mail z uporabo IMAP IDLE&lt;/li>
-&lt;li>Izboljšano delovanje&lt;/li>
-&lt;li>Message refiling&lt;/li>
-&lt;li>Podpisi v epošti&lt;/li>
-&lt;li>BCC-samemu-sebi&lt;/li>
-&lt;li>Naročnine na mape&lt;/li>
-&lt;li>Sinhronizacija vseh map&lt;/li>
-&lt;li>Nastavljanje povratnega naslova&lt;/li>
-&lt;li>Bližnjice za tipkovnico&lt;/li>
-&lt;li>Boljša podpora IMAP&lt;/li>
-&lt;li>Shranjevanje priponk na SD kartico&lt;/li>
-&lt;li>Praznjenje smeti&lt;/li>
-&lt;li>Razvrščanje sporočil&lt;/li>
-&lt;li>… in še več&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+<li>Push mail z uporabo IMAP IDLE</li>
+<li>Izboljšano delovanje</li>
+<li>Message refiling</li>
+<li>Podpisi v epošti</li>
+<li>BCC-samemu-sebi</li>
+<li>Naročnine na mape</li>
+<li>Sinhronizacija vseh map</li>
+<li>Nastavljanje povratnega naslova</li>
+<li>Bližnjice za tipkovnico</li>
+<li>Boljša podpora IMAP</li>
+<li>Shranjevanje priponk na SD kartico</li>
+<li>Praznjenje smeti</li>
+<li>Razvrščanje sporočil</li>
+<li>… in še več</li>
+</ul>
+<p>
 Prosimo bodite pozorni, da K-9 ne podpira brezplačnih hotmail računov in ima tako kot veliko drugih odjemalcev
 nekaj težavic s pogoori preko Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Prosimo pošljite poročila o napakah, predloge za nove funkcije in vprašanja na
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-</string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+]]></string>
     <string name="action_remote_search">Išči sporočila na strežniku</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> izbranih</string>
     <string name="activate_account_action">Aktiviraj</string>
@@ -971,7 +971,7 @@ Prosimo pošljite poročila o napakah, predloge za nove funkcije in vprašanja n
     <string name="tap_hint">Tapnite krog ali zvezdo za neprebrana ali sporočila z zvezdico</string>
     <string name="trash_folder_label">Mapa za smeti</string>
     <string name="unflag_action">Odvzemi zvezdico</string>
-    <string name="unknown_recipient">&lt;Neznan prejemnik></string>
+    <string name="unknown_recipient"><![CDATA[<Neznan prejemnik>]]></string>
     <string name="unread_modifier">- Neprebrana</string>
     <string name="unread_widget_label">K-9 neprebrana</string>
     <string name="unread_widget_select_account">Prikaži število neprebranih za ...</string>

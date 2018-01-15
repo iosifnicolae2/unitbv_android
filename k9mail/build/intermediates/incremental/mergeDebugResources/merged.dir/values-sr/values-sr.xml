@@ -331,35 +331,35 @@
     <string name="accountlist_preferences">Списак налога</string>
     <string name="accounts_context_menu_title">Опције налога</string>
     <string name="accounts_title">Налози</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 К-9 Пошта је моћан слободни клијент е-поште за Андроид.
-&lt;/p>&lt;p>
+</p><p>
 Побољшане могућности укључују:
-&lt;/p>
-&lt;ul>
-  &lt;li>Прослеђивање поште користећи IMAP IDLE&lt;/li>
-  &lt;li>Боље преформансе&lt;/li>
-  &lt;li>Реархивисање порука&lt;/li>
-  &lt;li>Потписи е-порука&lt;/li>
-  &lt;li>Бцц себи&lt;/li>
-  &lt;li>Претплате на фасцикле&lt;/li>
-  &lt;li>Синхронизација свих фасцикли&lt;/li>
-  &lt;li>Подешавање повратне адресе&lt;/li>
-  &lt;li>Пречице тастатуре&lt;/li>
-  &lt;li>Боља подршка за IMAP&lt;/li>
-  &lt;li>Упис прилога на СД картицу&lt;/li>
-  &lt;li>Пражњење отпада&lt;/li>
-  &lt;li>Ређање порука&lt;/li>
-  &lt;li>…и још тога&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Прослеђивање поште користећи IMAP IDLE</li>
+  <li>Боље преформансе</li>
+  <li>Реархивисање порука</li>
+  <li>Потписи е-порука</li>
+  <li>Бцц себи</li>
+  <li>Претплате на фасцикле</li>
+  <li>Синхронизација свих фасцикли</li>
+  <li>Подешавање повратне адресе</li>
+  <li>Пречице тастатуре</li>
+  <li>Боља подршка за IMAP</li>
+  <li>Упис прилога на СД картицу</li>
+  <li>Пражњење отпада</li>
+  <li>Ређање порука</li>
+  <li>…и још тога</li>
+</ul>
+<p>
 Имајте на уму да К-9 не подржава већину бесплатних Хотмејл налога и, као и многи клијенти, има мушица при контакту са Мајкрософтовом Разменом.
-&lt;/p>&lt;p>
+</p><p>
 Пријављујте грешке, доприносите нове могућности и постављајте питања на
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-</string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+]]></string>
     <string name="action_remote_search">Тражи поруке на серверу</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> изабрано</string>
     <string name="activate_account_action">Активирај</string>
@@ -963,7 +963,7 @@
     <string name="tap_hint">Тапните кружић или звездицу за непрочитане или означене поруке</string>
     <string name="trash_folder_label">Фасцикла смећа</string>
     <string name="unflag_action">Уклони звездицу</string>
-    <string name="unknown_recipient">&lt;Непознат прималац></string>
+    <string name="unknown_recipient"><![CDATA[<Непознат прималац>]]></string>
     <string name="unread_modifier"> - непрочитане</string>
     <string name="unread_widget_label">К-9 непрочитане</string>
     <string name="unread_widget_select_account">Прикажи број непрочитаних за…</string>

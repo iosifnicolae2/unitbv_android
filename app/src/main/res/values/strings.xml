@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Student</string>
+    <string name="app_name">Cantina Memo</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -133,4 +133,5 @@
     <string name="error_filter_categories">A aparut o eroare neasteptata. Va rugam incercati mai tarziu!</string>
     <string name="cart_deleted">Am sters produsele din cosul dumneavoastra!</string>
     <string name="cart_preference_file_key">cart_preferences</string>
+    <string name="update_menu_socket_io">Meniul a fost actualizat automat!</string>
 </resources>

@@ -329,35 +329,35 @@
     <string name="accountlist_preferences">Seznam účtů</string>
     <string name="accounts_context_menu_title">Možnosti účtů</string>
     <string name="accounts_title">Účty</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail je výkonný emailový klient pro Android.
-&lt;/p>&lt;p>
+</p><p>
 Jeho vylepšené funkce obsahují:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push mail při použití IMAP IDLE&lt;/li>
-  &lt;li>Lepší výkon&lt;/li>
-  &lt;li>Doplňování zpráv&lt;/li>
-  &lt;li>Podpisy zpráv&lt;/li>
-  &lt;li>Skryté kopie sobě&lt;/li>
-  &lt;li>Odebírané složky&lt;/li>
-  &lt;li>Synchronizace všech složek&lt;/li>
-  &lt;li>Konfigurace zpáteční adresy&lt;/li>
-  &lt;li>Klávesové zkratky&lt;/li>
-  &lt;li>Lepší podpora IMAP&lt;/li>
-  &lt;li>Ukládání příloh na SD&lt;/li>
-  &lt;li>Vysypání koše&lt;/li>
-  &lt;li>Třídění zpráv&lt;/li>
-  &lt;li>… a další&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push mail při použití IMAP IDLE</li>
+  <li>Lepší výkon</li>
+  <li>Doplňování zpráv</li>
+  <li>Podpisy zpráv</li>
+  <li>Skryté kopie sobě</li>
+  <li>Odebírané složky</li>
+  <li>Synchronizace všech složek</li>
+  <li>Konfigurace zpáteční adresy</li>
+  <li>Klávesové zkratky</li>
+  <li>Lepší podpora IMAP</li>
+  <li>Ukládání příloh na SD</li>
+  <li>Vysypání koše</li>
+  <li>Třídění zpráv</li>
+  <li>… a další</li>
+</ul>
+<p>
 K-9 nepodporuje většinu bezplatných účtů Hotmail a jako mnoho poštovních klientů vykazuje zvláštnosti při komunikaci s Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Chybová hlášení prosím posílejte, přispívejte novými funkcemi a ptejte se na
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Hledat zprávy na serveru</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> vybraných</string>
     <string name="activate_account_action">Aktivovat</string>
@@ -924,7 +924,7 @@ Chybová hlášení prosím posílejte, přispívejte novými funkcemi a ptejte 
     <string name="tap_hint">Dotykem na kroužek nebo hvězdičku pro nepřečtené nebo označené zprávy</string>
     <string name="trash_folder_label">Název složky Koš</string>
     <string name="unflag_action">Odebrat \u2606</string>
-    <string name="unknown_recipient">&lt;Unknown Recipient></string>
+    <string name="unknown_recipient"><![CDATA[<Unknown Recipient>]]></string>
     <string name="unread_modifier"> - Nepřečtené</string>
     <string name="unread_widget_label">K-9 Nepřečtená</string>
     <string name="unread_widget_select_account">Zobrazit počet nepřečtených pro…</string>

@@ -324,36 +324,36 @@
     <string name="accountlist_preferences">Elenco account</string>
     <string name="accounts_context_menu_title">Opzioni account</string>
     <string name="accounts_title">Account</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 Mail è un potente client di posta libero e gratuito per Android.
-&lt;/p>&lt;p>
+</p><p>
 Le sue funzioni migliorate includono:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push mail utliizzando IMAP IDLE&lt;/li>
-  &lt;li>Migliori prestazioni&lt;/li>
-  &lt;li>Ri-archiviazione dei messaggi&lt;/li>
-  &lt;li>Firme dei messaggi&lt;/li>
-  &lt;li>Auto CCN&lt;/li>
-  &lt;li>Sottoscrizioni delle cartelle&lt;/li>
-  &lt;li>Sincronizzazione di tutte le cartelle&lt;/li>
-  &lt;li>Configurazione dell\'indirizzo di risposta&lt;/li>
-  &lt;li>Scorciatoie da tastiera&lt;/li>
-  &lt;li>Migliore supporto IMAP&lt;/li>
-  &lt;li>Salvataggio degli allegati su SD&lt;/li>
-  &lt;li>Svuotamento cestino&lt;/li>
-  &lt;li>Ordinamento dei messaggi&lt;/li>
-  &lt;li>…e altro&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push mail utliizzando IMAP IDLE</li>
+  <li>Migliori prestazioni</li>
+  <li>Ri-archiviazione dei messaggi</li>
+  <li>Firme dei messaggi</li>
+  <li>Auto CCN</li>
+  <li>Sottoscrizioni delle cartelle</li>
+  <li>Sincronizzazione di tutte le cartelle</li>
+  <li>Configurazione dell\'indirizzo di risposta</li>
+  <li>Scorciatoie da tastiera</li>
+  <li>Migliore supporto IMAP</li>
+  <li>Salvataggio degli allegati su SD</li>
+  <li>Svuotamento cestino</li>
+  <li>Ordinamento dei messaggi</li>
+  <li>…e altro</li>
+</ul>
+<p>
 Nota che K-9 non supporta la maggior parte degli account gratuiti Hotmail e, come molti altri client di posta, ha
 qualche problema quando dialoga con Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Invia segnalazioni di bug, contribuisci con nuove funzionalità e poni domande su
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Cerca messaggi sul server</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> selezionati</string>
     <string name="activate_account_action">Attiva</string>
@@ -958,7 +958,7 @@ Invia segnalazioni di bug, contribuisci con nuove funzionalità e poni domande s
     <string name="tap_hint">Tocca il cerchio o la stella per i messaggi non letti o preferiti</string>
     <string name="trash_folder_label">Cartella Cestino</string>
     <string name="unflag_action">Rimuovi stella</string>
-    <string name="unknown_recipient">&lt;Destinatario sconosciuto></string>
+    <string name="unknown_recipient"><![CDATA[<Destinatario sconosciuto>]]></string>
     <string name="unread_modifier">- Non letto</string>
     <string name="unread_widget_label">Nuovi messaggi di K-9</string>
     <string name="unread_widget_select_account">Mostra numero messaggi non letti per…</string>

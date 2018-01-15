@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "268422254060",
-    "firebase_url": "https://unitbvstudent.firebaseio.com",
-    "project_id": "unitbvstudent",
-    "storage_bucket": "unitbvstudent.appspot.com"
+    "project_number": "191737977462",
+    "firebase_url": "https://unitbv-cantina.firebaseio.com",
+    "project_id": "unitbv-cantina",
+    "storage_bucket": "unitbv-cantina.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:268422254060:android:0e2be205912d7b75",
+        "mobilesdk_app_id": "1:191737977462:android:cd20f020fa6e236f",
         "android_client_info": {
-          "package_name": "ro.unitbv.student"
+          "package_name": "ro.unitbv.cantina"
         }
       },
       "oauth_client": [
         {
-          "client_id": "268422254060-dtikfq66aa3q02hi0qlkfv4f8g00q8sv.apps.googleusercontent.com",
+          "client_id": "191737977462-ng99n0rtkuumecctgpk92cofmjoho851.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCwiW6khiXk6H79wlNqdZOebTYTmOEoUVA"
+          "current_key": "AIzaSyAOlUcpQn9PNfSdrFDUtJljk6aC-uILgGM"
         }
       ],
       "services": {

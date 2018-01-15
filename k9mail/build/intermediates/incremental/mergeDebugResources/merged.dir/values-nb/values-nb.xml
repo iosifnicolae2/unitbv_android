@@ -324,36 +324,36 @@
     <string name="accountlist_preferences">Kontoliste</string>
     <string name="accounts_context_menu_title">Kontoinnstillinger</string>
     <string name="accounts_title">Kontoer</string>
-    <string name="accounts_welcome">
-&lt;p>
+    <string name="accounts_welcome"><![CDATA[
+<p>
 K-9 E-post er en kraftig og fri e-postklient for Android.
-&lt;/p>&lt;p>
+</p><p>
 Dets forbedrede funksjoner inkluderer:
-&lt;/p>
-&lt;ul>
-  &lt;li>Push mail ved bruk av IMAP IDLE&lt;/li>
-  &lt;li>Bedre ytelse&lt;/li>
-  &lt;li>Rearkivering av meldinger&lt;/li>
-  &lt;li>E-postsignaturer&lt;/li>
-  &lt;li>Blindkopi ti deg selv&lt;/li>
-  &lt;li>Mappeabonnement&lt;/li>
-  &lt;li>Synkronisering av alle mapper&lt;/li>
-  &lt;li>Returadressekonfigurasjon&lt;/li>
-  &lt;li>Tastatursnarveier&lt;/li>
-  &lt;li>Bedre IMAP-støtte&lt;/li>
-  &lt;li>Lagre vedlegg til SD-kort&lt;/li>
-  &lt;li>Tøm søppel&lt;/li>
-  &lt;li>Meldingssortering&lt;/li>
-  &lt;li>…med mer&lt;/li>
-&lt;/ul>
-&lt;p>
+</p>
+<ul>
+  <li>Push mail ved bruk av IMAP IDLE</li>
+  <li>Bedre ytelse</li>
+  <li>Rearkivering av meldinger</li>
+  <li>E-postsignaturer</li>
+  <li>Blindkopi ti deg selv</li>
+  <li>Mappeabonnement</li>
+  <li>Synkronisering av alle mapper</li>
+  <li>Returadressekonfigurasjon</li>
+  <li>Tastatursnarveier</li>
+  <li>Bedre IMAP-støtte</li>
+  <li>Lagre vedlegg til SD-kort</li>
+  <li>Tøm søppel</li>
+  <li>Meldingssortering</li>
+  <li>…med mer</li>
+</ul>
+<p>
 Vennligst noter at K-9 ikke støtter de fleste gratis Hotmail-kontoer, og har, som mange andre
 e-postklienter, noen problemer med å snakke med Microsoft Exchange.
-&lt;/p>&lt;p>
+</p><p>
 Vennligst send feilmeldinger, bidra med nye funksjoner og still spørsmål her:
-&lt;a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/&lt;/a>.
-&lt;/p>
-    </string>
+<a href=\"https://github.com/k9mail/k-9/\">https://github.com/k9mail/k-9/</a>.
+</p>
+    ]]></string>
     <string name="action_remote_search">Søk etter meldinger på tjener</string>
     <string name="actionbar_selected"><ns1:g id="selection_count">%d</ns1:g> valgt</string>
     <string name="activate_account_action">Aktiver</string>
@@ -954,7 +954,7 @@ til <ns1:g id="messages_to_load">%d</ns1:g> flere</string>
     <string name="tap_hint">Trykk sirkel eller stjerne for uleste eller stjernemerkede meldinger</string>
     <string name="trash_folder_label">Søppelmappe</string>
     <string name="unflag_action">Fjern stjerne</string>
-    <string name="unknown_recipient">&lt;Ukjent mottaker></string>
+    <string name="unknown_recipient"><![CDATA[<Ukjent mottaker>]]></string>
     <string name="unread_modifier">- Uleste</string>
     <string name="unread_widget_label">K-9 Ulest</string>
     <string name="unread_widget_select_account">Vis antall uleste for …</string>
