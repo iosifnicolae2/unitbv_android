@@ -40,6 +40,7 @@ public class UnitbvApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        AndroidNetworking.initialize(getApplicationContext());
 
         new AsyncTask<Void, Void, Void>() {
             @Override

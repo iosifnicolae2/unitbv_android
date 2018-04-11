@@ -46,6 +46,7 @@ import cz.msebera.android.httpclient.entity.StringEntity;
 import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.UnitbvApp;
 import ro.unitbv.cantina.activities.CartActivity;
+import ro.unitbv.cantina.activities.QueueActivity;
 import ro.unitbv.cantina.adapters.CategoriesAdapter;
 import ro.unitbv.cantina.adapters.DishAdapter;
 import ro.unitbv.cantina.objects.Dish;
@@ -345,7 +346,14 @@ public class MenuFragment extends Fragment{
                 startActivity(i);
             }
         });
-
+        final FloatingActionButton queue_button = (FloatingActionButton) v.findViewById(R.id.queue_button);
+        queue_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent o = new Intent(getActivity(),QueueActivity.class);
+                startActivity(o);
+            }
+        });
         RecyclerView menu_list = (RecyclerView) v.findViewById(R.id.menu_list);
         menu_list.setHasFixedSize(true);
 
@@ -356,14 +364,16 @@ public class MenuFragment extends Fragment{
 
                 if (dy >0) {
                     // Scroll Down
-                    if (shopping_fab.isShown()) {
+                    if (shopping_fab.isShown()&&queue_button.isShown()) {
                         shopping_fab.hide();
+                        queue_button.hide();
                     }
                 }
                 else if (dy <0) {
                     // Scroll Up
-                    if (!shopping_fab.isShown()) {
+                    if (!shopping_fab.isShown()&&!queue_button.isShown()) {
                         shopping_fab.show();
+                        queue_button.show();
                     }
                 }
             }

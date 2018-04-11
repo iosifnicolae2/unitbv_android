@@ -120,6 +120,7 @@
     <string name="dish_grammage">Gramaj</string>
     <string name="event_teacher">Profesor:</string>
     <string name="item_added">Am adaugat acest item in cosul tau.</string>
+    <string name="queue_thanks">Multumim pentru contributie!</string>
     <string name="view_cart">Vezi cosul</string>
     <string name="action_cart">Cos de cumparaturi</string>
     <string name="clean_cart">Sterge cosul</string>
@@ -133,5 +134,6 @@
     <string name="error_filter_categories">A aparut o eroare neasteptata. Va rugam incercati mai tarziu!</string>
     <string name="cart_deleted">Am sters produsele din cosul dumneavoastra!</string>
     <string name="cart_preference_file_key">cart_preferences</string>
+    <string name="coada_cantina">Coadă cantină</string>
     <string name="update_menu_socket_io">Meniul a fost actualizat automat!</string>
 </resources>

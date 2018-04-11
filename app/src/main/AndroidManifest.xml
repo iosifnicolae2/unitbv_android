@@ -50,7 +50,7 @@
                 android:value="ro.unitbv.cantina.activities.MainActivity" />
         </activity>
         <activity android:name="ro.unitbv.cantina.activities.CartActivity"/>
-
+        <activity android:name="ro.unitbv.cantina.activities.QueueActivity"/>
         <service
             android:name="ro.unitbv.cantina.UnitbvFirebaseMessagingService">
             <intent-filter>

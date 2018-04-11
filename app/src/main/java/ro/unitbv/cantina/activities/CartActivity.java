@@ -73,6 +73,7 @@ public class CartActivity extends AppCompatActivity {
         RecyclerView menu_list = (RecyclerView) findViewById(R.id.cart_list);
         menu_list.setHasFixedSize(true);
 
+
         menu_list.addOnScrollListener(new RecyclerView.OnScrollListener() {
             @Override
             public void onScrolled(RecyclerView recyclerView, int dx,int dy){
