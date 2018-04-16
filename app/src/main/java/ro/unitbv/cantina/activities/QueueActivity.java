@@ -106,8 +106,12 @@ public class QueueActivity extends AppCompatActivity {
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
-
-                        Log.w("response", response.toString());
+                        try {
+                             Log.w("response", response.toString());
+                        }catch(Exception e){
+                            Log.w("error",e.toString());
+                            Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
+                            }
                         // TODO(gabriel): check for errors inside `response` variable.
                         Snackbar.make(coordinatorLayout, R.string.queue_thanks, Snackbar.LENGTH_LONG).show();
                     }
@@ -116,6 +120,7 @@ public class QueueActivity extends AppCompatActivity {
                     public void onError(ANError anError) {
 
                         anError.printStackTrace();
+                        Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
                         // TODO(gabriel): show an error message
                     }
                 });

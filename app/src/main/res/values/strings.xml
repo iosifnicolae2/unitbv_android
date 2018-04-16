@@ -97,7 +97,7 @@
 
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_ringtone_silent">Silent</string>
-
+    <string name="queue_problem">A aparut o problema!</string>
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="menu_settings">Setari</string>
     <string name="pref_title_new_message_notifications_news">Notificare anunturi</string>
