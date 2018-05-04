@@ -112,7 +112,6 @@ public class QueueActivity extends AppCompatActivity {
                             Log.w("error",e.toString());
                             Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
                             }
-                        // TODO(gabriel): check for errors inside `response` variable.
                         Snackbar.make(coordinatorLayout, R.string.queue_thanks, Snackbar.LENGTH_LONG).show();
                     }
 
@@ -121,7 +120,7 @@ public class QueueActivity extends AppCompatActivity {
 
                         anError.printStackTrace();
                         Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
-                        // TODO(gabriel): show an error message
+
                     }
                 });
     }
