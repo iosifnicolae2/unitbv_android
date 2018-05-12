@@ -154,8 +154,8 @@ public class MainActivity extends AppCompatActivity
 
                     String temp  = wh.getJSONObject("low").getInt("celsius")+" - "+wh.getJSONObject("high").getInt("celsius")+" °C";
 
-                    TextView temperature = (TextView) findViewById(R.id.weather_celsius);
-                    temperature.setText(temp);
+                    //TextView temperature = (TextView) findViewById(R.id.weather_celsius);
+                    //temperature.setText(temp);
 
                    /* ImageView photo = (ImageView) findViewById(R.id.weather_photo);
 
@@ -171,8 +171,8 @@ public class MainActivity extends AppCompatActivity
 */
                     JSONObject txt_wf = forecast.getJSONObject("txt_forecast").getJSONArray("forecastday").getJSONObject(0);
 
-                    TextView desc = (TextView) findViewById(R.id.weather_description);
-                    desc.setText(txt_wf.getString("fcttext_metric"));
+                   // TextView desc = (TextView) findViewById(R.id.weather_description);
+                   // desc.setText(txt_wf.getString("fcttext_metric"));
 
                 } catch (JSONException e) {
                     e.printStackTrace();
