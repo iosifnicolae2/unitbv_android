@@ -1,12 +1,10 @@
 package ro.unitbv.cantina.fragments;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.BaseTransientBottomBar;
-import android.support.design.widget.CoordinatorLayout;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -24,7 +22,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.nkzawa.emitter.Emitter;
@@ -59,7 +56,7 @@ import ro.unitbv.cantina.adapters.CategoriesAdapter;
 import ro.unitbv.cantina.adapters.DishAdapter;
 import ro.unitbv.cantina.objects.Dish;
 import ro.unitbv.cantina.objects.DishCats;
-import ro.unitbv.cantina.objects.Queue;
+
 import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
 
 /**
@@ -443,7 +440,8 @@ public class MenuFragment extends Fragment{
         menu_list.setLayoutManager(mLayoutManager);
 
 
-        menu_adapter = new DishAdapter(getActivity(),menu_arraylist);
+        View menu_header_layout = inflater.inflate(R.layout.fragment_menu, container, false);
+        menu_adapter = new DishAdapter(menu_header_layout, getActivity(),menu_arraylist);
         menu_adapter.setHasStableIds(true);
 
         menu_list.setAdapter(menu_adapter);
