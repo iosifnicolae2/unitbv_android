@@ -147,12 +147,6 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
-<<<<<<< HEAD
-    private RequestParams populate_categories;
-    private Queue number;
-=======
-
->>>>>>> d5dc229caeb9c050f2037b99cf8da83e9e1d4b7a
     private Socket mSocket;
     {
         try {
