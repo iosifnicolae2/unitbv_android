@@ -4,19 +4,14 @@
     <color name="colorPrimaryDark">#f60800</color>
     <color name="colorAccent">#fcd609</color>
 
-    <color name="course">#00e676</color>
-    <color name="seminar">#f50057</color>
-    <color name="laboratory">#1565c0</color>
-
     <color name="course_img">#00c853</color>
     <color name="seminar_img">#f50057</color>
     <color name="laboratory_img">#1565c0</color>
-    <color name="place_details_bg">@color/colorAccent</color>
     <color name="dish_img_placeholder">#9ec2c2c2</color>
     <color name="category_element_bg">#eeeeee</color>
     <color name="category_element_bg_checked">#1565C0</color>
     <color name="text_color_cats">#717171</color>
     <color name="text_color_cats_checked">#f9f9f9</color>
-    <color name="dish_title_bg">#5c000000</color>
+    <color name="dish_title_bg">#2b000000</color>
 
 </resources>

@@ -144,7 +144,7 @@ public class DishActivity extends AppCompatActivity {
 
 
     public void click_category(String id) {
-        ArrayList<String> r = new ArrayList<String>();
+        ArrayList<String> r = new ArrayList<>();
         r.add(id);
         ( (UnitbvApp)getApplication()).filter_category(r);
         finish();
