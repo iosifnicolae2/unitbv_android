@@ -20,26 +20,30 @@ import ro.unitbv.cantina.objects.Dish;
 /**
  * Created by iosif on 10/15/16.
  */
-public class DishAdapter extends RecyclerView.Adapter<DishAdapter.ViewHolder>{
-
+public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public static final String DISH_POSITION = "dish_position";
     public static final String DISH_ID_DB = "dish_id_db";
-    private  ArrayList<Dish> mDataset;
+    private static final int TYPE_HEADER = 0;
+    static final int TYPE_ITEM = 1;
     private final Picasso picasso;
-    private Activity mActivity;
     public boolean fromDB = false;
+    protected ArrayList<Dish> mDataset;
+    private Activity mActivity;
+    private View header;
+    private boolean with_header = false;
 
 
-        public DishAdapter(Activity activity,ArrayList<Dish> orar_arraylist) {
-            mDataset = orar_arraylist;
-            mActivity = activity;
+    public DishAdapter(View header, Activity activity, ArrayList<Dish> orar_arraylist) {
+        this.header = header;
+        this.with_header = (header != null);
+        mDataset = orar_arraylist;
+        mActivity = activity;
 
 
+        picasso = Picasso.with(activity);
 
-            picasso = Picasso.with(activity);
 
-
-        }
+    }
 
     public void update_data(ArrayList<Dish> menu_arraylist) {
         this.mDataset = menu_arraylist;
@@ -48,91 +52,116 @@ public class DishAdapter extends RecyclerView.Adapter<DishAdapter.ViewHolder>{
 
     @Override
     public long getItemId(int position) {
-        try{
+        try {
             return mDataset.get(position).getId().hashCode();
 
-        }catch(Exception e){
+        } catch (Exception e) {
             return 0;
         }
     }
 
-    static class ViewHolder extends RecyclerView.ViewHolder {
-            // each data item is just a string in this case
-            TextView dish_name;
-            TextView dish_description;
-            TextView dish_price;
-            ImageView dish_image;
+    @Override
+    public int getItemViewType(int position) {
+        if (isPositionHeader(position) && with_header)
+            return TYPE_HEADER;
+        return TYPE_ITEM;
+    }
 
-            ViewHolder(View v) {
-                super(v);
+    private boolean isPositionHeader(int position) {
+        return position == 0;
+    }
 
-                dish_name = (TextView) v.findViewById(R.id.dish_name);
-                dish_description = (TextView) v.findViewById(R.id.dish_description);
-                dish_price = (TextView) v.findViewById(R.id.dish_price);
-                dish_image = (ImageView) v.findViewById(R.id.dish_image);
-            }
+
+    @Override
+    public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        if (viewType == TYPE_HEADER) {
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.menu_header, parent, false);
+            return new VHHeader(v);
+        } else if (viewType == TYPE_ITEM) {
+            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.dish_row, parent, false);
+            return new VHItem(v);
         }
+        throw new RuntimeException("there is no type that matches the type " + viewType + " + make sure your using types correctly");
+    }
 
-
-
-        // Create new views (invoked by the layout manager)
-        @Override
-        public DishAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
-        int viewType) {
-            // create a new view
-            View v = LayoutInflater.from(parent.getContext())
-                    .inflate(R.layout.dish_row, parent, false);
-            // set the view's size, margins, paddings and layout parameters
-
-            return new DishAdapter.ViewHolder(v);
-        }
-
-        // Replace the contents of a view (invoked by the layout manager)
-        @Override
-        public void onBindViewHolder(final DishAdapter.ViewHolder holder, final int position) {
-
-            final Dish ev = mDataset.get(position);
+    // Replace the contents of a view (invoked by the layout manager)
+    @Override
+    public void onBindViewHolder(final RecyclerView.ViewHolder view_holder, int p) {
+        if (view_holder instanceof VHHeader) {
+            VHHeader VHheader = (VHHeader) view_holder;
+            VHheader.view = this.header;
+        } else if (view_holder instanceof VHItem) {
+            VHItem holder = (VHItem) view_holder;
+            final int position = holder.getAdapterPosition();
+            final Dish ev = mDataset.get(position - (with_header ? 1 : 0));
 
             //   holder.event_color.setBackgroundColor(ev.getTypeColor());
             holder.dish_name.setText(ev.getName());
-            if(holder.dish_description!=null)
-            holder.dish_description.setText(ev.getShort_description());
+            if (holder.dish_description != null)
+                holder.dish_description.setText(ev.getShort_description());
 
             holder.dish_price.setText(ev.getPrice());
 
-            if(ev.getPicture_url()!=null&&ev.getPicture_url().length()>0)
-            picasso
-                    .load(ev.getPicture_url())
-                    .placeholder(R.color.dish_img_placeholder)
-                    .error(android.R.color.transparent)
-                    .fit().centerCrop()
-                    .into(holder.dish_image);
+            if (ev.getPicture_url() != null && ev.getPicture_url().length() > 0)
+                picasso
+                        .load(ev.getPicture_url())
+                        .placeholder(R.color.dish_img_placeholder)
+                        .error(android.R.color.transparent)
+                        .fit().centerCrop()
+                        .into(holder.dish_image);
 
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    onClickSubject(ev,position);
+                    onClickSubject(ev, position);
                 }
             });
         }
+    }
 
-    private void onClickSubject(Dish e,int position) {
+    private void onClickSubject(Dish e, int position) {
 
-        Intent i = new Intent(mActivity,DishActivity.class);
-        if(fromDB){
-            i.putExtra(DISH_ID_DB,e.getId());
+        Intent i = new Intent(mActivity, DishActivity.class);
+        if (fromDB) {
+            i.putExtra(DISH_ID_DB, e.getId());
 
-        }else{
+        } else {
 
-            i.putExtra(DISH_POSITION,position);
+            i.putExtra(DISH_POSITION, position);
         }
         mActivity.startActivity(i);
     }
 
-    // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
-        return mDataset.size();
+        // we include the header
+        return mDataset.size() + (with_header ? 1 : 0);
+    }
+
+
+    static class VHHeader extends RecyclerView.ViewHolder {
+        View view;
+
+        VHHeader(View view) {
+            super(view);
+            this.view = view;
+        }
+    }
+
+    static class VHItem extends RecyclerView.ViewHolder {
+        // each data item is just a string in this case
+        TextView dish_name;
+        TextView dish_description;
+        TextView dish_price;
+        ImageView dish_image;
+
+        VHItem(View v) {
+            super(v);
+            dish_name = v.findViewById(R.id.dish_name);
+            dish_description = v.findViewById(R.id.dish_description);
+            dish_price = v.findViewById(R.id.dish_price);
+            dish_image = v.findViewById(R.id.dish_image);
+        }
     }
 }
 
