@@ -12,6 +12,7 @@ import ro.unitbv.cantina.objects.Dish;
 
 /**
  * Created by iosif on 11/2/16.
+
  */
 public class CartAdapter extends DishAdapter {
 

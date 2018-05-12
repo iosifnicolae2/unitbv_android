@@ -32,7 +32,6 @@ import com.google.firebase.crash.FirebaseCrash;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.MySSLSocketFactory;
-import com.loopj.android.http.RequestParams;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -144,7 +143,6 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
-    private RequestParams populate_categories;
 
     private Socket mSocket;
     {
@@ -172,13 +170,15 @@ public class MenuFragment extends Fragment{
     private Emitter.Listener updateMenuSocketListener = new Emitter.Listener() {
         @Override
         public void call(Object... args) {
-            getActivity().runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    Toast.makeText(getActivity(), R.string.update_menu_socket_io, Toast.LENGTH_SHORT).show();
-                    update_filters();
-                }
-            });
+            if(getActivity() != null){
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getActivity(), R.string.update_menu_socket_io, Toast.LENGTH_SHORT).show();
+                        update_filters();
+                    }
+                });
+            }
         }
     };
 
@@ -256,6 +256,10 @@ public class MenuFragment extends Fragment{
             return;
         }
         filter_categories = new ArrayList<>();
+        if(getActivity() == null){
+            Toast.makeText(getContext(), "Activity should't be null!.", Toast.LENGTH_SHORT).show();
+            return;
+        }
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(getString(R.string.select_categories));
 
@@ -308,7 +312,7 @@ public class MenuFragment extends Fragment{
 
         try {
         JSONArray jsonParams = new JSONArray(Collections.singletonList(last_filter_categories));
-        StringEntity entity = null;
+        StringEntity entity;
             entity = new StringEntity(jsonParams.toString());
             client.post(getContext(), API_DOMAIN+"/api/todayMenu/filter", entity, "application/json",
                     response_handler);
@@ -322,10 +326,14 @@ public class MenuFragment extends Fragment{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        if(getActivity() == null){
+            Toast.makeText(getContext(), "Activity should't be null!.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         getActivity().setTitle(R.string.menu_canteen_large);
         app = (UnitbvApp) getActivity().getApplication();
         get_menu_today("");
-
 
         // set Socket listener
         mSocket.on("update_menu", updateMenuSocketListener);

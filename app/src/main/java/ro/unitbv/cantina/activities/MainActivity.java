@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, UnitbvApp.MenuCallback {
 
     private FragmentManager fragment_manager;
-    private Toolbar toolbar_a;
     private MenuFragment menu_fragment;
     private UnitbvApp app;
 
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity
         // app.check_schedule();
 
         setContentView(R.layout.activity_main);
-        toolbar_a = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar_a = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar_a);
 
         fragment_manager = getSupportFragmentManager();

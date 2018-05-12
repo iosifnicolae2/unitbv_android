@@ -11,7 +11,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="@xml/backup_descriptor">
         <activity
             android:name="ro.unitbv.cantina.activities.MainActivity"
             android:label="@string/app_name"
@@ -20,6 +21,17 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:label="Cantina Memo">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="unitbv.mailo.ml"
+                    android:pathPrefix="/" />
+                <data android:scheme="https"
+                    android:host="unitbv.mailo.ml"
+                    android:pathPrefix="/" />
             </intent-filter>
         </activity>
 
@@ -35,7 +47,8 @@
         <activity android:name="ro.unitbv.cantina.activities.CartActivity"/>
         <activity android:name="ro.unitbv.cantina.activities.QueueActivity"/>
         <service
-            android:name="ro.unitbv.cantina.UnitbvFirebaseMessagingService">
+            android:name="ro.unitbv.cantina.UnitbvFirebaseMessagingService"
+            android:permission="">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT"/>
             </intent-filter>

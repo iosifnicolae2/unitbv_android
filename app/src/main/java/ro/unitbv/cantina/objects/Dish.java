@@ -79,7 +79,7 @@ public class Dish {
 
         ArrayList<DishCats> r = new ArrayList<>();
         for(int i=0;i<cats.length();i++){
-            JSONObject obj = null;
+            JSONObject obj;
             try {
                 obj = cats.getJSONObject(i);
                 r.add(new DishCats(obj));
