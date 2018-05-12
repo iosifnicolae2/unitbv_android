@@ -1,11 +1,14 @@
 package ro.unitbv.cantina.fragments;
-
+import android.support.constraint.ConstraintLayout;
+import android.support.design.widget.BaseTransientBottomBar;
+import android.support.design.widget.CoordinatorLayout;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
@@ -21,6 +24,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.nkzawa.emitter.Emitter;
@@ -55,7 +59,7 @@ import ro.unitbv.cantina.adapters.CategoriesAdapter;
 import ro.unitbv.cantina.adapters.DishAdapter;
 import ro.unitbv.cantina.objects.Dish;
 import ro.unitbv.cantina.objects.DishCats;
-
+import ro.unitbv.cantina.objects.Queue;
 import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
 
 /**
@@ -63,7 +67,7 @@ import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
  */
 public class MenuFragment extends Fragment{
 
-
+    private ConstraintLayout constraintLayout;
     private DishAdapter menu_adapter;
     private ArrayList<Dish> menu_arraylist;
     private SwipeRefreshLayout swipe_refresh;
@@ -71,7 +75,6 @@ public class MenuFragment extends Fragment{
     private ArrayList<String> last_filter_categories = new ArrayList<>();
     private ArrayList<String> filter_categories = new ArrayList<>();
     private CategoriesAdapter.AdapterListener category_click = new CategoriesAdapter.AdapterListener() {
-
         @Override
         public void categories_updated(ArrayList<String> last_filter_categories) {
             filter_categories = last_filter_categories;
@@ -101,6 +104,7 @@ public class MenuFragment extends Fragment{
                         JSONObject dish = menu.getJSONObject(i);
                         menu_arraylist.add(new Dish(dish));
                     }
+
                     update_data();
 
                 }
@@ -143,7 +147,6 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
-
     private Socket mSocket;
     {
         try {
@@ -350,6 +353,7 @@ public class MenuFragment extends Fragment{
     private void get_menu_today(String query) {
         AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/todayMenu"+query, response_handler);
+        people();
     }
 
     private void update_data() {
@@ -358,7 +362,28 @@ public class MenuFragment extends Fragment{
 
     }
 
+    private void people() {
+        AsyncHttpClient client = new AsyncHttpClient();
+        client.get(API_DOMAIN+"/api/queue/waze_clients", new JsonHttpResponseHandler(){
+            @Override
+            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
 
+                swipe_refresh.setRefreshing(false);
+                try {
+
+                    if(response.has("average_number_of_clients")){
+                       String people = response.getString("average_number_of_clients");
+                      Snackbar.make(swipe_refresh,"Numarul aproximativ de persoane la cantina este: "+ people,Snackbar.LENGTH_LONG).show();
+
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                    FirebaseCrash.report(e);
+                }
+            }
+
+        });
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

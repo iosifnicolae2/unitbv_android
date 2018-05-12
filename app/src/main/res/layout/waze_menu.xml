@@ -5,13 +5,16 @@
     android:id="@+id/coordinator_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
 <android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="21dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginTop="16dp"
         android:text="Introduceti numarul aproximativ de persoane la cantina"
         app:layout_constraintBottom_toTopOf="@+id/button1"
@@ -36,13 +39,14 @@
 
     <Button
         android:id="@+id/button1"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:layout_marginEnd="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginRight="136dp"
         android:layout_marginStart="136dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="28dp"
+        android:autoLink="web"
+        android:background="@android:color/holo_green_light"
         android:text="10"
         app:layout_constraintBottom_toTopOf="@+id/button12"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,9 +56,12 @@
 
     <Button
         android:id="@+id/button12"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:background="@android:color/holo_green_dark"
         android:text="10-20"
         app:layout_constraintBottom_toTopOf="@+id/button23"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,9 +70,12 @@
 
     <Button
         android:id="@+id/button23"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:background="@android:color/holo_orange_dark"
         android:text="20-30"
         app:layout_constraintBottom_toTopOf="@+id/button34"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,12 +86,14 @@
 
     <Button
         android:id="@+id/button34"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="136dp"
-        android:layout_marginLeft="136dp"
-        android:layout_marginRight="136dp"
         android:layout_marginStart="136dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:background="#ff3300"
         android:text="30-40"
         app:layout_constraintBottom_toTopOf="@+id/button45"
         app:layout_constraintEnd_toEndOf="parent"
@@ -90,9 +102,12 @@
 
     <Button
         android:id="@+id/button45"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:background="#ff1100"
         android:text="40-50"
         app:layout_constraintBottom_toTopOf="@+id/button56"
         app:layout_constraintEnd_toEndOf="parent"
@@ -106,15 +121,18 @@
 
     <Button
         android:id="@+id/button56"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:autoLink="web"
+        android:background="@android:color/holo_red_dark"
         android:text="50-60+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button12"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button12"
-        app:layout_constraintTop_toBottomOf="@+id/button45"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintTop_toBottomOf="@+id/button45" />
 
     <android.support.constraint.Barrier
         android:layout_width="wrap_content"

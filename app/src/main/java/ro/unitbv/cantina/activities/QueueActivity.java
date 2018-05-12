@@ -29,12 +29,11 @@ public class QueueActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.waze_menu);
 
-        if (getSupportActionBar() != null) {
+        if( getSupportActionBar()!=null){
 
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
-
         setTitle(R.string.coada_cantina);
 
         coordinatorLayout = findViewById(R.id.coordinator_layout);
@@ -84,6 +83,12 @@ public class QueueActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
     }
 
     private void push_queue_estimation_to_server(int estimate) {
