@@ -17,6 +17,6 @@
     <color name="category_element_bg_checked">#1565C0</color>
     <color name="text_color_cats">#717171</color>
     <color name="text_color_cats_checked">#f9f9f9</color>
-    <color name="dish_title_bg">#5c000000</color>
+    <color name="dish_title_bg">#2b000000</color>
 
 </resources>

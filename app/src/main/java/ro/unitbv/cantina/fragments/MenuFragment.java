@@ -30,6 +30,7 @@ import com.github.nkzawa.socketio.client.Socket;
 import com.google.firebase.crash.FirebaseCrash;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
+import com.loopj.android.http.MySSLSocketFactory;
 import com.loopj.android.http.RequestParams;
 
 import org.json.JSONArray;
@@ -42,6 +43,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.conn.scheme.PlainSocketFactory;
+import cz.msebera.android.httpclient.conn.scheme.Scheme;
+import cz.msebera.android.httpclient.conn.scheme.SchemeRegistry;
 import cz.msebera.android.httpclient.entity.StringEntity;
 import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.UnitbvApp;
@@ -144,7 +148,7 @@ public class MenuFragment extends Fragment{
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("https://unitbv.mailo.ml");
+            mSocket = IO.socket(UnitbvApp.SOCKET_ENDPOINT);
             mSocket.io().on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
                 @Override
                 public void call(Object... args) {
@@ -190,7 +194,7 @@ public class MenuFragment extends Fragment{
     }
 
     private void populate_categories() {
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/categories", new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
@@ -284,7 +288,7 @@ public class MenuFragment extends Fragment{
             get_menu_today("");
             return;
         }
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
 
         try {
         JSONArray jsonParams = new JSONArray(Collections.singletonList(last_filter_categories));
@@ -311,10 +315,16 @@ public class MenuFragment extends Fragment{
         mSocket.on("update_menu", updateMenuSocketListener);
         mSocket.connect();
     }
-
+    private AsyncHttpClient getAsyncHttpClient() {
+        // TODO(iosif): this is an insecure method to prevent https errors
+        SchemeRegistry schemeRegistry = new SchemeRegistry();
+        schemeRegistry.register(new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
+        schemeRegistry.register(new Scheme("https", MySSLSocketFactory.getFixedSocketFactory(), 443));
+        return new AsyncHttpClient(schemeRegistry);
+    }
 
     private void get_menu_today(String query) {
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/todayMenu"+query, response_handler);
     }
 
