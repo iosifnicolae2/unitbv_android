@@ -1,9 +1,5 @@
 package ro.unitbv.cantina.database;
 
-/**
- * Created by iosif on 11/30/16.
- */
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -68,11 +64,9 @@ public class DishDB extends DatabaseHelper {
             "TEXT",
 
     };
-    private final Context context;
 
     public DishDB(Context context) {
         super(context, TABLE_NAME, FIELDS_NAME, FIELDS_TYPE);
-        this.context = context;
     }
 
     public void add(Dish u) {
@@ -128,8 +122,6 @@ public class DishDB extends DatabaseHelper {
 
 
             if (cursor.moveToFirst()) {
-                do {
-
                   return new Dish(cursor.getString(id_index),
                           cursor.getString(price_index),
                           cursor.getString(name_index),
@@ -138,9 +130,6 @@ public class DishDB extends DatabaseHelper {
                           cursor.getString(quantity_indx),
                           cursor.getString(picture_url_indx),
                           cursor.getString(categories_indx));
-
-
-                } while (cursor.moveToNext());
             }
 
 

@@ -1,9 +1,5 @@
 package ro.unitbv.cantina.database;
 
-/**
- * Created by iosif on 6/11/16.
- */
-
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -40,19 +36,19 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     // Creating Tables
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "(";
+        StringBuilder CREATE_TABLE = new StringBuilder("CREATE TABLE " + TABLE_NAME + "(");
 
         int f_size = fields_name.length-1;
 
         for(int i =0;i<f_size;i++){
-            CREATE_TABLE+=fields_name[i]+" "+fields_type[i]+", ";
+            CREATE_TABLE.append(fields_name[i]).append(" ").append(fields_type[i]).append(", ");
         }
         if(f_size>0)
-        CREATE_TABLE+=fields_name[f_size]+" "+fields_type[f_size];
+        CREATE_TABLE.append(fields_name[f_size]).append(" ").append(fields_type[f_size]);
 
-        CREATE_TABLE+=")";
+        CREATE_TABLE.append(")");
 
-        db.execSQL(CREATE_TABLE);
+        db.execSQL(CREATE_TABLE.toString());
     }
 
     // Upgrading database

@@ -48,7 +48,7 @@ public class CartActivity extends AppCompatActivity {
 
         //UnitbvApp app = (UnitbvApp) getApplication();
 
-        swipe_refresh = (SwipeRefreshLayout) findViewById(R.id.refresh_menu);
+        swipe_refresh = findViewById(R.id.refresh_menu);
         swipe_refresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
@@ -58,19 +58,19 @@ public class CartActivity extends AppCompatActivity {
             }
         });
 
-        final FloatingActionButton shopping_fab = (FloatingActionButton) findViewById(R.id.delete_cart);
+        final FloatingActionButton shopping_fab = findViewById(R.id.delete_cart);
         shopping_fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 db.clearTable();
-                menu_arraylist = new ArrayList<Dish>();
+                menu_arraylist = new ArrayList<>();
                 cart_adapter.update_data(menu_arraylist);
                 Snackbar.make(view, R.string.cart_deleted, Snackbar.LENGTH_LONG).show();
 
             }
         });
 
-        RecyclerView menu_list = (RecyclerView) findViewById(R.id.cart_list);
+        RecyclerView menu_list = findViewById(R.id.cart_list);
         menu_list.setHasFixedSize(true);
 
 

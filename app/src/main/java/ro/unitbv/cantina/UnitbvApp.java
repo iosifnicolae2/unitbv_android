@@ -3,7 +3,6 @@ package ro.unitbv.cantina;
 import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.os.AsyncTask;
 import android.support.multidex.MultiDex;
 
 import com.androidnetworking.AndroidNetworking;
@@ -30,16 +29,7 @@ public class UnitbvApp extends Application {
     public void onCreate() {
         super.onCreate();
         AndroidNetworking.initialize(getApplicationContext());
-
-        new AsyncTask<Void, Void, Void>() {
-            @Override
-            protected Void doInBackground(Void... params) {
-
-                clearCartToday();
-                return null;
-            }
-        }.execute();
-
+        clearCartToday();
     }
 
     private void clearCartToday() {
