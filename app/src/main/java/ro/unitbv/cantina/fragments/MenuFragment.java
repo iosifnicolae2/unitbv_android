@@ -144,7 +144,7 @@ public class MenuFragment extends Fragment{
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("https://unitbv.mailo.ml");
+            mSocket = IO.socket(UnitbvApp.SOCKET_ENDPOINT);
             mSocket.io().on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
                 @Override
                 public void call(Object... args) {

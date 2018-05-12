@@ -19,6 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import ro.unitbv.cantina.R;
+import ro.unitbv.cantina.UnitbvApp;
 
 public class QueueActivity extends AppCompatActivity {
     private CoordinatorLayout coordinatorLayout;
@@ -99,7 +100,7 @@ public class QueueActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        AndroidNetworking.post("https://unitbv.mailo.ml/api/queue/waze_clients")
+        AndroidNetworking.post(UnitbvApp.WAZE_POST_CLIENTS_API)
                 .addJSONObjectBody(jsonObject)
                 .setPriority(Priority.MEDIUM)
                 .build()
