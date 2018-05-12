@@ -1,10 +1,12 @@
 package ro.unitbv.cantina.fragments;
+import android.support.constraint.ConstraintLayout;
+import android.support.design.widget.BaseTransientBottomBar;
+import android.support.design.widget.CoordinatorLayout;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.constraint.ConstraintLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -22,6 +24,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.nkzawa.emitter.Emitter;
@@ -56,7 +59,7 @@ import ro.unitbv.cantina.adapters.CategoriesAdapter;
 import ro.unitbv.cantina.adapters.DishAdapter;
 import ro.unitbv.cantina.objects.Dish;
 import ro.unitbv.cantina.objects.DishCats;
-
+import ro.unitbv.cantina.objects.Queue;
 import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
 
 /**
@@ -144,6 +147,7 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
+
     private Socket mSocket;
     {
         try {
@@ -370,8 +374,8 @@ public class MenuFragment extends Fragment{
 
                     if(response.has("average_number_of_clients")){
                        String people = response.getString("average_number_of_clients");
-                      Snackbar.make(swipe_refresh,"Numarul aproximativ de persoane la cantina este: "+ people,Snackbar.LENGTH_LONG).show();
-
+                        TextView nr_people = (TextView) swipe_refresh.findViewById(R.id.nr_people_header);
+                        nr_people.setText(people);
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
