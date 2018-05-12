@@ -4,6 +4,7 @@ import android.support.design.widget.BaseTransientBottomBar;
 import android.support.design.widget.CoordinatorLayout;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -34,7 +35,7 @@ import com.github.nkzawa.socketio.client.Socket;
 import com.google.firebase.crash.FirebaseCrash;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.JsonHttpResponseHandler;
-import com.loopj.android.http.RequestParams;
+import com.loopj.android.http.MySSLSocketFactory;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -46,6 +47,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 import cz.msebera.android.httpclient.Header;
+import cz.msebera.android.httpclient.conn.scheme.PlainSocketFactory;
+import cz.msebera.android.httpclient.conn.scheme.Scheme;
+import cz.msebera.android.httpclient.conn.scheme.SchemeRegistry;
 import cz.msebera.android.httpclient.entity.StringEntity;
 import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.UnitbvApp;
@@ -143,12 +147,16 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
+<<<<<<< HEAD
     private RequestParams populate_categories;
     private Queue number;
+=======
+
+>>>>>>> d5dc229caeb9c050f2037b99cf8da83e9e1d4b7a
     private Socket mSocket;
     {
         try {
-            mSocket = IO.socket("https://unitbv.mailo.ml");
+            mSocket = IO.socket(UnitbvApp.SOCKET_ENDPOINT);
             mSocket.io().on(Manager.EVENT_TRANSPORT, new Emitter.Listener() {
                 @Override
                 public void call(Object... args) {
@@ -171,13 +179,15 @@ public class MenuFragment extends Fragment{
     private Emitter.Listener updateMenuSocketListener = new Emitter.Listener() {
         @Override
         public void call(Object... args) {
-            getActivity().runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    Toast.makeText(getActivity(), R.string.update_menu_socket_io, Toast.LENGTH_SHORT).show();
-                    update_filters();
-                }
-            });
+            if(getActivity() != null){
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getActivity(), R.string.update_menu_socket_io, Toast.LENGTH_SHORT).show();
+                        update_filters();
+                    }
+                });
+            }
         }
     };
 
@@ -194,7 +204,7 @@ public class MenuFragment extends Fragment{
     }
 
     private void populate_categories() {
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/categories", new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
@@ -229,9 +239,24 @@ public class MenuFragment extends Fragment{
             case R.id.filter_menu:
                 showFilterDialog();
                 break;
+            case R.id.feedback_menu:
+                send_feedback();
+                break;
         }
         return true;
 
+    }
+
+    private void send_feedback() {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_EMAIL, UnitbvApp.FEEDBACK_EMAIL_ADDRESS);
+        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.send_feedback_email_subject));
+        try {
+            startActivity(Intent.createChooser(intent, getString(R.string.send_feedback_intent_title)));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(getContext(), R.string.feedback_error_no_email_client, Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void showFilterDialog() {
@@ -240,6 +265,10 @@ public class MenuFragment extends Fragment{
             return;
         }
         filter_categories = new ArrayList<>();
+        if(getActivity() == null){
+            Toast.makeText(getContext(), "Activity should't be null!.", Toast.LENGTH_SHORT).show();
+            return;
+        }
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(getString(R.string.select_categories));
 
@@ -288,11 +317,11 @@ public class MenuFragment extends Fragment{
             get_menu_today("");
             return;
         }
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
 
         try {
         JSONArray jsonParams = new JSONArray(Collections.singletonList(last_filter_categories));
-        StringEntity entity = null;
+        StringEntity entity;
             entity = new StringEntity(jsonParams.toString());
             client.post(getContext(), API_DOMAIN+"/api/todayMenu/filter", entity, "application/json",
                     response_handler);
@@ -306,19 +335,29 @@ public class MenuFragment extends Fragment{
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        if(getActivity() == null){
+            Toast.makeText(getContext(), "Activity should't be null!.", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         getActivity().setTitle(R.string.menu_canteen_large);
         app = (UnitbvApp) getActivity().getApplication();
         get_menu_today("");
-
 
         // set Socket listener
         mSocket.on("update_menu", updateMenuSocketListener);
         mSocket.connect();
     }
-
+    private AsyncHttpClient getAsyncHttpClient() {
+        // TODO(iosif): this is an insecure method to prevent https errors
+        SchemeRegistry schemeRegistry = new SchemeRegistry();
+        schemeRegistry.register(new Scheme("http", PlainSocketFactory.getSocketFactory(), 80));
+        schemeRegistry.register(new Scheme("https", MySSLSocketFactory.getFixedSocketFactory(), 443));
+        return new AsyncHttpClient(schemeRegistry);
+    }
 
     private void get_menu_today(String query) {
-        AsyncHttpClient client = new AsyncHttpClient();
+        AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/todayMenu"+query, response_handler);
         people();
     }
