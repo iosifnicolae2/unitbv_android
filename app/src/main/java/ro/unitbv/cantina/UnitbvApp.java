@@ -19,14 +19,13 @@ import ro.unitbv.cantina.objects.Dish;
  */
 
 public class UnitbvApp extends Application {
-    private ArrayList<Dish> menuData;
-    private ArrayList<MenuCallback> menu_callbacks = new ArrayList<>();
-    private ArrayList<String> filter_category = null;
-
     public static final String API_DOMAIN = "https://unitbv.mailo.ml";
     public static final String SOCKET_ENDPOINT = "https://unitbv.mailo.ml";
     public static final String WAZE_POST_CLIENTS_API = "https://unitbv.mailo.ml/api/queue/waze_clients";
-
+    public static final String FEEDBACK_EMAIL_ADDRESS = "cantina.memo.brasov@gmail.com";
+    private ArrayList<Dish> menuData;
+    private ArrayList<MenuCallback> menu_callbacks = new ArrayList<>();
+    private ArrayList<String> filter_category = null;
     @Override
     public void onCreate() {
         super.onCreate();

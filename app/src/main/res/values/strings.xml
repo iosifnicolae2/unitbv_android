@@ -136,4 +136,8 @@
     <string name="cart_preference_file_key">cart_preferences</string>
     <string name="coada_cantina">Coadă cantină</string>
     <string name="update_menu_socket_io">Meniul a fost actualizat automat!</string>
+    <string name="feedback_menu_title">Send us feedback!</string>
+    <string name="send_feedback_email_subject">Feedback</string>
+    <string name="send_feedback_intent_title">Send feedback via...</string>
+    <string name="feedback_error_no_email_client">No email client installed!</string>
 </resources>

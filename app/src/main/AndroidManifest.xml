@@ -22,9 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="ro.unitbv.cantina.activities.EventPage"
-            android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
             android:name="ro.unitbv.cantina.activities.DishActivity"
