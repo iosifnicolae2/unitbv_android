@@ -2,6 +2,7 @@ package ro.unitbv.cantina.fragments;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -229,9 +230,24 @@ public class MenuFragment extends Fragment{
             case R.id.filter_menu:
                 showFilterDialog();
                 break;
+            case R.id.feedback_menu:
+                send_feedback();
+                break;
         }
         return true;
 
+    }
+
+    private void send_feedback() {
+        Intent intent = new Intent(Intent.ACTION_SENDTO);
+        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
+        intent.putExtra(Intent.EXTRA_EMAIL, UnitbvApp.FEEDBACK_EMAIL_ADDRESS);
+        intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.send_feedback_email_subject));
+        try {
+            startActivity(Intent.createChooser(intent, getString(R.string.send_feedback_intent_title)));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(getContext(), R.string.feedback_error_no_email_client, Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void showFilterDialog() {
