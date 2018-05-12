@@ -25,21 +25,7 @@
         <activity
             android:name="ro.unitbv.cantina.activities.EventPage"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="ro.unitbv.cantina.activities.ConfigureUser"
-            android:parentActivityName="ro.unitbv.cantina.activities.SettingsActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ro.unitbv.cantina.activities.SettingsActivity" />
-        </activity>
-        <activity
-            android:name="ro.unitbv.cantina.activities.SettingsActivity"
-            android:label="@string/title_activity_settings"
-            android:parentActivityName="ro.unitbv.cantina.activities.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="ro.unitbv.cantina.activities.MainActivity" />
-        </activity>
+
         <activity
             android:name="ro.unitbv.cantina.activities.DishActivity"
             android:label="@string/title_activity_dish"
