@@ -15,6 +15,7 @@ import java.util.ArrayList;
 
 import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.activities.DishActivity;
+import ro.unitbv.cantina.activities.QueueActivity;
 import ro.unitbv.cantina.objects.Dish;
 
 /**
@@ -29,25 +30,21 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public boolean fromDB = false;
     protected ArrayList<Dish> mDataset;
     private Activity mActivity;
-    private View header;
+    private int header_id;
     private boolean with_header = false;
+    private View header_view;
 
 
-    public DishAdapter(View header, Activity activity, ArrayList<Dish> orar_arraylist) {
-        this.header = header;
-        this.with_header = (header != null);
+    public DishAdapter(int header_id, Activity activity, ArrayList<Dish> orar_arraylist) {
+        this.header_id = header_id;
+        this.with_header = (header_id != 0);
         mDataset = orar_arraylist;
         mActivity = activity;
-
-
         picasso = Picasso.with(activity);
-
-
     }
 
     public void update_data(ArrayList<Dish> menu_arraylist) {
         this.mDataset = menu_arraylist;
-        notifyDataSetChanged();
     }
 
     @Override
@@ -75,8 +72,19 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_HEADER) {
-            View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.menu_header, parent, false);
-            return new VHHeader(v);
+            // Inflate header_view only if doesn't exist.
+            // TODO(iosif): please note that notifyDataSetChanged() will raise an error.
+            if(header_view == null) {
+                header_view = LayoutInflater.from(parent.getContext()).inflate(header_id, parent, false);
+                header_view.findViewById(R.id.waze_action_button).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(mActivity, QueueActivity.class);
+                        mActivity.startActivity(intent);
+                    }
+                });
+            }
+            return new VHHeader(header_view);
         } else if (viewType == TYPE_ITEM) {
             View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.dish_row, parent, false);
             return new VHItem(v);
@@ -87,10 +95,11 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(final RecyclerView.ViewHolder view_holder, int p) {
-        if (view_holder instanceof VHHeader) {
-            VHHeader VHheader = (VHHeader) view_holder;
-            VHheader.view = this.header;
-        } else if (view_holder instanceof VHItem) {
+//        We don't populate header now.
+//        if (view_holder instanceof VHHeader) {
+//            VHHeader VHheader = (VHHeader) view_holder;
+//        } else
+        if (view_holder instanceof VHItem) {
             VHItem holder = (VHItem) view_holder;
             final int position = holder.getAdapterPosition() - (with_header ? 1 : 0);
             final Dish ev = mDataset.get(position);
@@ -136,6 +145,9 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     public int getItemCount() {
         // we include the header
         return mDataset.size() + (with_header ? 1 : 0);
+    }
+    public View get_header_view() {
+        return header_view;
     }
 
 
