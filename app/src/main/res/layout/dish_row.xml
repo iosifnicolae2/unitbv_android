@@ -50,6 +50,7 @@
                 android:layout_height="wrap_content"
                 android:text="17 lei"
                 android:gravity="right|end"
+                android:textStyle="bold"
                 android:textSize="14sp"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"

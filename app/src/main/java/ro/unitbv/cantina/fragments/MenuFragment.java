@@ -1,14 +1,11 @@
 package ro.unitbv.cantina.fragments;
-import android.support.constraint.ConstraintLayout;
-import android.support.design.widget.BaseTransientBottomBar;
-import android.support.design.widget.CoordinatorLayout;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
@@ -45,6 +42,7 @@ import java.io.UnsupportedEncodingException;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Objects;
 
 import cz.msebera.android.httpclient.Header;
 import cz.msebera.android.httpclient.conn.scheme.PlainSocketFactory;
@@ -54,12 +52,11 @@ import cz.msebera.android.httpclient.entity.StringEntity;
 import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.UnitbvApp;
 import ro.unitbv.cantina.activities.CartActivity;
-import ro.unitbv.cantina.activities.QueueActivity;
 import ro.unitbv.cantina.adapters.CategoriesAdapter;
 import ro.unitbv.cantina.adapters.DishAdapter;
 import ro.unitbv.cantina.objects.Dish;
 import ro.unitbv.cantina.objects.DishCats;
-import ro.unitbv.cantina.objects.Queue;
+
 import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
 
 /**
@@ -67,7 +64,6 @@ import static ro.unitbv.cantina.UnitbvApp.API_DOMAIN;
  */
 public class MenuFragment extends Fragment{
 
-    private ConstraintLayout constraintLayout;
     private DishAdapter menu_adapter;
     private ArrayList<Dish> menu_arraylist;
     private SwipeRefreshLayout swipe_refresh;
@@ -147,6 +143,7 @@ public class MenuFragment extends Fragment{
         }
     };
     private ArrayList<DishCats> categories = new ArrayList<>();
+
     private Socket mSocket;
     {
         try {
@@ -317,8 +314,13 @@ public class MenuFragment extends Fragment{
         JSONArray jsonParams = new JSONArray(Collections.singletonList(last_filter_categories));
         StringEntity entity;
             entity = new StringEntity(jsonParams.toString());
-            client.post(getContext(), API_DOMAIN+"/api/todayMenu/filter", entity, "application/json",
-                    response_handler);
+            client.post(
+                    getContext(),
+                    API_DOMAIN+"/api/todayMenu/filter",
+                    entity,
+                    "application/json",
+                    response_handler
+            );
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
@@ -353,7 +355,7 @@ public class MenuFragment extends Fragment{
     private void get_menu_today(String query) {
         AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/todayMenu"+query, response_handler);
-        people();
+        update_waze_number_of_people();
     }
 
     private void update_data() {
@@ -362,19 +364,30 @@ public class MenuFragment extends Fragment{
 
     }
 
-    private void people() {
-        AsyncHttpClient client = new AsyncHttpClient();
+    private void update_waze_number_of_people() {
+        AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/queue/waze_clients", new JsonHttpResponseHandler(){
             @Override
             public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-
-                swipe_refresh.setRefreshing(false);
                 try {
+                    TextView nr_people = menu_adapter.get_header_view().findViewById(R.id.waze_number_of_people);
 
                     if(response.has("average_number_of_clients")){
-                       String people = response.getString("average_number_of_clients");
-                      Snackbar.make(swipe_refresh,"Numarul aproximativ de persoane la cantina este: "+ people,Snackbar.LENGTH_LONG).show();
+                       String number_of_people = response.getString("average_number_of_clients");
+                       if(Objects.equals(number_of_people, "0")) {
+                           nr_people.setText(R.string.waze_unavailable_data);
+                           return;
+                       }
 
+                        String number_of_people_full_text = (
+                                getString(R.string.waze_number_of_people_text)
+                                        + " " + number_of_people + " "
+                                        + getString(R.string.waze_people)
+                        );
+                        nr_people.setText(number_of_people_full_text);
+
+                    } else {
+                        nr_people.setText(R.string.waze_unavailable_data);
                     }
                 } catch (JSONException e) {
                     e.printStackTrace();
@@ -405,14 +418,6 @@ public class MenuFragment extends Fragment{
                 startActivity(i);
             }
         });
-        final FloatingActionButton queue_button = (FloatingActionButton) v.findViewById(R.id.queue_button);
-        queue_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent o = new Intent(getActivity(),QueueActivity.class);
-                startActivity(o);
-            }
-        });
         RecyclerView menu_list = (RecyclerView) v.findViewById(R.id.menu_list);
         menu_list.setHasFixedSize(true);
 
@@ -423,16 +428,14 @@ public class MenuFragment extends Fragment{
 
                 if (dy >0) {
                     // Scroll Down
-                    if (shopping_fab.isShown()&&queue_button.isShown()) {
+                    if (shopping_fab.isShown()) {
                         shopping_fab.hide();
-                        queue_button.hide();
                     }
                 }
                 else if (dy <0) {
                     // Scroll Up
-                    if (!shopping_fab.isShown()&&!queue_button.isShown()) {
+                    if (!shopping_fab.isShown()) {
                         shopping_fab.show();
-                        queue_button.show();
                     }
                 }
             }
@@ -443,7 +446,8 @@ public class MenuFragment extends Fragment{
         menu_list.setLayoutManager(mLayoutManager);
 
 
-        menu_adapter = new DishAdapter(getActivity(),menu_arraylist);
+        int menu_header_layout = R.layout.menu_header;
+        menu_adapter = new DishAdapter(menu_header_layout, getActivity(),menu_arraylist);
         menu_adapter.setHasStableIds(true);
 
         menu_list.setAdapter(menu_adapter);

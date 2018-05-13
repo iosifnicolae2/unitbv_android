@@ -45,4 +45,10 @@
     <string name="send_feedback_email_subject">Feedback</string>
     <string name="send_feedback_intent_title">Send feedback via…</string>
     <string name="feedback_error_no_email_client">No email client installed!</string>
+    <string name="waze_action_button">Contribuie</string>
+    <string name="waze_image_content_description">Info image.</string>
+    <string name="waze_number_of_people_text">Numarul aproximativ de persoane la coada este de</string>
+    <string name="waze_people">persoane.</string>
+    <string name="waze_unavailable_data">Nu avem date disponibile despre coada la cantina!</string>
+    <string name="waze_activity_description">Introduceti numarul aproximativ de persoane la cantina.</string>
 </resources>
