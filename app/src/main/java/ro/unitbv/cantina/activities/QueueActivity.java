@@ -1,14 +1,14 @@
 package ro.unitbv.cantina.activities;
 
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
@@ -22,12 +22,14 @@ import ro.unitbv.cantina.R;
 import ro.unitbv.cantina.UnitbvApp;
 
 public class QueueActivity extends AppCompatActivity {
-    private CoordinatorLayout coordinatorLayout;
+    private Activity mActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.waze_menu);
+
+        mActivity = this;
 
         if( getSupportActionBar()!=null){
 
@@ -36,7 +38,6 @@ public class QueueActivity extends AppCompatActivity {
         }
         setTitle(R.string.coada_cantina);
 
-        coordinatorLayout = findViewById(R.id.coordinator_layout);
 
         // Setup click listeners for buttons.
         final Button button1 = (Button) findViewById(R.id.button1);
@@ -116,16 +117,18 @@ public class QueueActivity extends AppCompatActivity {
                              Log.w("response", response.toString());
                         }catch(Exception e){
                             Log.w("error",e.toString());
-                            Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), mActivity.getResources().getString(R.string.queue_problem), Toast.LENGTH_LONG).show();
+                            return;
                             }
-                        Snackbar.make(coordinatorLayout, R.string.queue_thanks, Snackbar.LENGTH_LONG).show();
+                        Toast.makeText(mActivity, mActivity.getResources().getString(R.string.queue_thanks), Toast.LENGTH_LONG).show();
+                        // Close current activity.
+                        mActivity.finish();
                     }
 
                     @Override
                     public void onError(ANError anError) {
-
                         anError.printStackTrace();
-                        Snackbar.make(coordinatorLayout, R.string.queue_problem, Snackbar.LENGTH_LONG).show();
+                        Toast.makeText(mActivity, mActivity.getResources().getString(R.string.queue_problem), Toast.LENGTH_LONG).show();
 
                     }
                 });
