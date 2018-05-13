@@ -92,8 +92,8 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             VHheader.view = this.header;
         } else if (view_holder instanceof VHItem) {
             VHItem holder = (VHItem) view_holder;
-            final int position = holder.getAdapterPosition();
-            final Dish ev = mDataset.get(position - (with_header ? 1 : 0));
+            final int position = holder.getAdapterPosition() - (with_header ? 1 : 0);
+            final Dish ev = mDataset.get(position);
 
             //   holder.event_color.setBackgroundColor(ev.getTypeColor());
             holder.dish_name.setText(ev.getName());
