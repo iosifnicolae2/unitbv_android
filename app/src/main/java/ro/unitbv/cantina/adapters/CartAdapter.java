@@ -19,7 +19,7 @@ public class CartAdapter extends DishAdapter {
 
 
     public CartAdapter(Activity activity, ArrayList<Dish> dish) {
-        super(null, activity, dish);
+        super(0, activity, dish);
         this.fromDB = true;
     }
 
