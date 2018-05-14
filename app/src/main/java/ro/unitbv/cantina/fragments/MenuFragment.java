@@ -109,6 +109,9 @@ public class MenuFragment extends Fragment{
                 FirebaseCrash.report(e);
                 Toast.makeText(getContext(),R.string.error_get_menu,Toast.LENGTH_SHORT).show();
             }
+            // The number of people from Cantina should be updated after menu was updated.
+            // TODO(iosif): we should refactor thhis behavior.
+            update_waze_number_of_people();
         }
 
 
@@ -240,8 +243,7 @@ public class MenuFragment extends Fragment{
 
     private void send_feedback() {
         Intent intent = new Intent(Intent.ACTION_SENDTO);
-        intent.setData(Uri.parse("mailto:")); // only email apps should handle this
-        intent.putExtra(Intent.EXTRA_EMAIL, UnitbvApp.FEEDBACK_EMAIL_ADDRESS);
+        intent.setData(Uri.parse("mailto:"+UnitbvApp.FEEDBACK_EMAIL_ADDRESS)); // only email apps should handle this
         intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.send_feedback_email_subject));
         try {
             startActivity(Intent.createChooser(intent, getString(R.string.send_feedback_intent_title)));
@@ -355,7 +357,6 @@ public class MenuFragment extends Fragment{
     private void get_menu_today(String query) {
         AsyncHttpClient client = getAsyncHttpClient();
         client.get(API_DOMAIN+"/api/todayMenu"+query, response_handler);
-        update_waze_number_of_people();
     }
 
     private void update_data() {
