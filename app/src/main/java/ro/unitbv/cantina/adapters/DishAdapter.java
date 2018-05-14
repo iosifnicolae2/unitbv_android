@@ -45,6 +45,7 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     public void update_data(ArrayList<Dish> menu_arraylist) {
         this.mDataset = menu_arraylist;
+        notifyDataSetChanged();
     }
 
     @Override
@@ -72,9 +73,6 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewType == TYPE_HEADER) {
-            // Inflate header_view only if doesn't exist.
-            // TODO(iosif): please note that notifyDataSetChanged() will raise an error.
-            if(header_view == null) {
                 header_view = LayoutInflater.from(parent.getContext()).inflate(header_id, parent, false);
                 header_view.findViewById(R.id.waze_action_button).setOnClickListener(new View.OnClickListener() {
                     @Override
@@ -83,7 +81,6 @@ public class DishAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                         mActivity.startActivity(intent);
                     }
                 });
-            }
             return new VHHeader(header_view);
         } else if (viewType == TYPE_ITEM) {
             View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.dish_row, parent, false);
